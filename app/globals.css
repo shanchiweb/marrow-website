@@ -818,6 +818,8 @@ html { scroll-behavior: smooth; }
 .admin-intro > p:first-child { color: var(--blue); font-size: 12px; letter-spacing: 3px; }
 .admin-intro h1 { margin: 13px 0 23px; font-family: "Luxurious Script", cursive; font-weight: 400; font-size: clamp(52px, 6vw, 100px); }
 .admin-intro > p:last-child { max-width: 760px; font-size: 16px; line-height: 1.8; }
+.admin-notice { max-width: 900px; margin: 0 0 38px; padding: 16px 20px; border: 1px solid #e2d3b6; background: #fbf6e9; color: #7a6435; font-size: 13.5px; line-height: 1.75; }
+.admin-notice strong { color: #5f4d24; }
 .admin-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 32px; }
 .admin-card { overflow: hidden; border: 1px solid #dedbd0; background: #fffef8; }
 .admin-preview { height: 300px; background: #eeeae0; }

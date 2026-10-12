@@ -21,7 +21,7 @@ function currentUrl(slot: MediaSlot, manifest: MediaManifest) {
   return defaults[slot];
 }
 
-export function AdminDashboard({ initialManifest }: { initialManifest: MediaManifest }) {
+export function AdminDashboard({ initialManifest, storageAvailable = true }: { initialManifest: MediaManifest; storageAvailable?: boolean }) {
   const [manifest, setManifest] = useState(initialManifest);
   const [busy, setBusy] = useState<MediaSlot | null>(null);
   const [messages, setMessages] = useState<Partial<Record<MediaSlot, string>>>({});
@@ -46,6 +46,7 @@ export function AdminDashboard({ initialManifest }: { initialManifest: MediaMani
   return <main className="admin-page">
     <header className="admin-header"><a href="/" aria-label="Back to Marrow home"><img src="/marrow-wordmark.png" alt="Marrow" /></a><div className="admin-header__actions"><a href="/">查看网站 ↗</a><form method="POST" action="/api/admin/logout"><button type="submit">退出登录</button></form></div></header>
     <div className="admin-intro"><p>MARROW · CONTENT MANAGEMENT</p><h1>首页素材管理</h1><p>替换轮播图和四处展示视频。上传的素材会保存在网站存储中，所有访客都会看到更新；也可填写 HTTPS 素材链接。视频静音、自动循环播放。</p></div>
+    {storageAvailable ? null : <p className="admin-notice">此部署尚未连接存储（R2），<strong>「保存替换」暂时不可用</strong>。首页目前显示设计稿默认素材，网站其余功能不受影响。在 Cloudflare 后台启用 R2 并重新部署后，即可在此替换素材。</p>}
     <div className="admin-grid">{MEDIA_SLOTS.map((slot) => {
       const isVideo = slot.startsWith("video-");
       const url = currentUrl(slot, manifest);
@@ -56,7 +57,7 @@ export function AdminDashboard({ initialManifest }: { initialManifest: MediaMani
           <form onSubmit={(event) => { event.preventDefault(); void submit(slot, new FormData(event.currentTarget)); }}>
             <label>上传{isVideo ? "视频" : "图片"}<input name="file" type="file" accept={isVideo ? "video/*" : "image/*"} /></label>
             <label>或填写 HTTPS 素材链接<input name="url" type="url" placeholder="https://…" /></label>
-            <div className="admin-actions"><button type="submit" disabled={busy !== null}>{busy === slot ? "保存中…" : "保存替换"}</button><button type="button" disabled={busy !== null || !custom} onClick={() => { const form = new FormData(); form.set("reset", "true"); void submit(slot, form); }}>恢复默认</button></div>
+            <div className="admin-actions"><button type="submit" disabled={busy !== null || !storageAvailable}>{busy === slot ? "保存中…" : "保存替换"}</button><button type="button" disabled={busy !== null || !custom || !storageAvailable} onClick={() => { const form = new FormData(); form.set("reset", "true"); void submit(slot, form); }}>恢复默认</button></div>
           </form>
           <p className="admin-message" role="status">{messages[slot] ?? (isVideo ? "建议 MP4 / WebM，单文件不超过 90 MB。" : "建议横向大图，单文件不超过 90 MB。")}</p>
         </div>

@@ -18,6 +18,12 @@ export async function POST(request: Request) {
   const form = await request.formData();
   const slot = form.get("slot");
   if (typeof slot !== "string" || !isMediaSlot(slot)) return Response.json({ error: "Invalid slot" }, { status: 400 });
+  if (!getBucket()) {
+    return Response.json(
+      { error: "此部署未连接存储（R2），暂时无法保存素材。请在 Cloudflare 后台启用 R2 后重新部署。" },
+      { status: 503 },
+    );
+  }
   const manifest = await readManifest();
   const file = form.get("file");
   const external = form.get("url");
