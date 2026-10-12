@@ -19,6 +19,6 @@ export default function Retailers() {
     <section className="retailers-overseas"><h2 className="script-heading">Overseas Stockists</h2>{overseas.map((line) => <p key={line}>{line}</p>)}</section>
     <section className="retailers-mainland"><h2 className="script-heading">Stockists in Mainland China</h2>{mainland.map((line, index) => <p className={index === 6 || index === 11 ? "retailers-list-break" : ""} key={line}>{line}</p>)}</section>
     <img className="retailers-photo" src="/design/stockists.jpg" alt="Marrow bridal gowns at a stockist" />
-    <p className="retailers-contact"><span>Brand Contact:</span><a href="https://www.instagram.com/marrowbridal/">marrowbridal</a></p>
+    <p className="retailers-contact"><span>Brand Contact:</span>marrowbridal</p>
   </section><SiteFooter /></main>;
 }
