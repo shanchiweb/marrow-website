@@ -3,10 +3,11 @@ import { defineConfig } from "vite";
 import hostingConfig from "./.openai/hosting.json";
 import { sites } from "./build/sites-vite-plugin";
 
-const SITE_CREATOR_PLACEHOLDER_DATABASE_ID =
-  "00000000-0000-4000-8000-000000000000";
+const { r2 } = hostingConfig;
 
-const { d1, r2 } = hostingConfig;
+// D1 数据库：保存页脚邮箱订阅收集到的地址
+const D1_DATABASE_NAME = "marrow-website-db";
+const D1_DATABASE_ID = "6e5f077f-31ad-463a-871a-2e16c7ee1709";
 
 // macOS Seatbelt blocks FSEvents, so Codex previews need polling for HMR.
 const isCodexSeatbeltSandbox = process.env.CODEX_SANDBOX === "seatbelt";
@@ -14,15 +15,15 @@ const isCodexSeatbeltSandbox = process.env.CODEX_SANDBOX === "seatbelt";
 const localBindingConfig = {
   main: "./worker/index.ts",
   compatibility_flags: ["nodejs_compat"],
-  d1_databases: d1
-    ? [
-        {
-          binding: d1,
-          database_name: "marrow-website-d1",
-          database_id: SITE_CREATOR_PLACEHOLDER_DATABASE_ID,
-        },
-      ]
-    : [],
+  d1_databases: [
+    {
+      binding: "DB",
+      database_name: D1_DATABASE_NAME,
+      database_id: D1_DATABASE_ID,
+    },
+  ],
+  // 邮件发送绑定，由 Cloudflare Email Service 提供（绑定名 EMAIL）
+  send_email: [{ name: "EMAIL" }],
   r2_buckets: r2
     ? [
         {

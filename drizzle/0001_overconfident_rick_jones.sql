@@ -1,0 +1,1 @@
+ALTER TABLE `subscribers` ADD `notified_at` text;

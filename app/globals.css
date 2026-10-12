@@ -624,6 +624,16 @@ html { scroll-behavior: smooth; }
 .site-footer__email input { width: 100%; height: calc(47 * var(--unit)); padding: 0 calc(12 * var(--unit)); border: calc(1 * var(--unit)) solid #3d3d3d; outline: 0; color: var(--ink); background: transparent; font-size: calc(15 * var(--unit)); letter-spacing: calc(1 * var(--unit)); }
 .site-footer__email input:focus { outline: calc(2 * var(--unit)) solid var(--blue); outline-offset: calc(2 * var(--unit)); }
 .site-footer__email p { position: static; margin: calc(12 * var(--unit)) 0 0; font-size: calc(15 * var(--unit)); line-height: calc(22 * var(--unit)); letter-spacing: calc(1.2 * var(--unit)); }
+.site-footer__email-row { display: flex; gap: calc(12 * var(--unit)); align-items: stretch; }
+.site-footer__email-row input { flex: 1 1 auto; width: auto; min-width: 0; }
+.site-footer__email-row input:disabled { opacity: .6; }
+.site-footer__email-row button { flex: 0 0 auto; padding: 0 calc(22 * var(--unit)); border: calc(1 * var(--unit)) solid var(--ink); color: var(--cream); background: var(--ink); font-family: inherit; font-size: calc(13 * var(--unit)); letter-spacing: calc(1.6 * var(--unit)); text-transform: uppercase; cursor: pointer; transition: opacity 200ms ease; }
+.site-footer__email-row button:hover { opacity: .82; }
+.site-footer__email-row button:disabled { opacity: .45; cursor: not-allowed; }
+.site-footer__email input[aria-invalid="true"] { border-color: #9b2c2c; }
+.site-footer__note.is-error { color: #9b2c2c; }
+.site-footer__note.is-done { color: #2f6b4f; }
+
 .site-footer__bottom { position: relative; height: calc(98 * var(--unit)); border-top: calc(1 * var(--unit)) solid #e7e3d8; }
 .site-footer__bottom p { top: calc(40 * var(--unit)); left: calc(100 * var(--unit)); }
 .site-footer__bottom img { top: calc(42 * var(--unit)); right: calc(100 * var(--unit)); width: calc(77 * var(--unit)); }
@@ -804,6 +814,8 @@ html { scroll-behavior: smooth; }
   .site-footer__column { gap: 13px; font-size: 12px; line-height: 1.2; letter-spacing: .6px; }
   .site-footer__email { grid-column: 1/-1; }
   .site-footer__email input { height: 40px; padding: 0 10px; font-size: 12px; }
+  .site-footer__email-row { gap: 8px; }
+  .site-footer__email-row button { padding: 0 14px; font-size: 11px; letter-spacing: .8px; }
   .site-footer__email p { margin-top: 10px; font-size: 12px; line-height: 1.5; letter-spacing: .4px; }
   .site-footer__bottom { height: 70px; }
   .site-footer__bottom p { top: 27px; left: 22px; }
