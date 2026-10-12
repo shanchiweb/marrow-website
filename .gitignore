@@ -32,6 +32,10 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+# Cloudflare 本地开发密钥（含后台密码），绝不提交
+.dev.vars
+.dev.vars.*
+
 # vercel
 .vercel
 

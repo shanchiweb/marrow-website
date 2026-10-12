@@ -44,7 +44,7 @@ export function AdminDashboard({ initialManifest }: { initialManifest: MediaMani
   }
 
   return <main className="admin-page">
-    <header className="admin-header"><a href="/" aria-label="Back to Marrow home"><img src="/marrow-wordmark.png" alt="Marrow" /></a><a href="/">查看网站 ↗</a></header>
+    <header className="admin-header"><a href="/" aria-label="Back to Marrow home"><img src="/marrow-wordmark.png" alt="Marrow" /></a><div className="admin-header__actions"><a href="/">查看网站 ↗</a><form method="POST" action="/api/admin/logout"><button type="submit">退出登录</button></form></div></header>
     <div className="admin-intro"><p>MARROW · CONTENT MANAGEMENT</p><h1>首页素材管理</h1><p>替换轮播图和四处展示视频。上传的素材会保存在网站存储中，所有访客都会看到更新；也可填写 HTTPS 素材链接。视频静音、自动循环播放。</p></div>
     <div className="admin-grid">{MEDIA_SLOTS.map((slot) => {
       const isVideo = slot.startsWith("video-");
