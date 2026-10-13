@@ -33,7 +33,12 @@ test("all four confirmed video slots have default artwork", async () => {
     assert.match(config, new RegExp(`"${slot}": "/design/`));
   }
   const manifest = JSON.parse(await read(".openai/hosting.json"));
-  assert.equal(manifest.r2, "BUCKET");
+  // 本项目保留了「未连接 R2 也能上线」的降级配置，因此 r2 允许为 null。
+  // 但一旦启用，绑定名必须是 BUCKET —— media-store 读的是 env.BUCKET。
+  assert.ok(
+    manifest.r2 === null || manifest.r2 === "BUCKET",
+    `r2 必须是 null（未启用）或 "BUCKET"，当前为 ${JSON.stringify(manifest.r2)}`,
+  );
 });
 
 test("editorial hover labels cover the four runway and three lookbook frames", async () => {
