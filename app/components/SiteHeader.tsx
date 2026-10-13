@@ -4,7 +4,7 @@
 
 import { useEffect, useRef, useState } from "react";
 
-type Page = "home" | "about" | "boutique" | "retailers";
+type Page = "home" | "wedding" | "about" | "boutique" | "retailers";
 
 const rightLinks: { page: Page; label: string; href: string }[] = [
   { page: "about", label: "About", href: "/about" },
@@ -13,10 +13,21 @@ const rightLinks: { page: Page; label: string; href: string }[] = [
 ];
 
 const collections = ["Puella Aeterna.", "Futur.", "Psyche and Eros."];
+const collectionRoots = ["/collections/puella-aeterna", "/collections/futur", "/collections/psyche-and-eros"];
+const collectionEntries = [
+  { kind: "runway", label: "Runway" },
+  { kind: "lookbook", label: "LookBook" },
+  { kind: "accessories", label: "Accessories" },
+];
 
 export function SiteHeader({ active, light = false }: { active: Page; light?: boolean }) {
   const [menuOpen, setMenuOpen] = useState(false);
   const header = useRef<HTMLElement>(null);
+  const menuTrigger = useRef<HTMLButtonElement>(null);
+
+  const focusFirstCollection = () => {
+    requestAnimationFrame(() => header.current?.querySelector<HTMLAnchorElement>(".wedding-mega-menu__entry[href]")?.focus());
+  };
 
   useEffect(() => {
     if (!menuOpen) return;
@@ -24,7 +35,10 @@ export function SiteHeader({ active, light = false }: { active: Page; light?: bo
       if (event.target instanceof Node && !header.current?.contains(event.target)) setMenuOpen(false);
     };
     const closeOnEscape = (event: KeyboardEvent) => {
-      if (event.key === "Escape") setMenuOpen(false);
+      if (event.key === "Escape") {
+        setMenuOpen(false);
+        menuTrigger.current?.focus();
+      }
     };
     document.addEventListener("pointerdown", closeOutside);
     document.addEventListener("keydown", closeOnEscape);
@@ -40,15 +54,18 @@ export function SiteHeader({ active, light = false }: { active: Page; light?: bo
         {collections.map((collection, index) => (
           <div className={`wedding-mega-menu__column wedding-mega-menu__column--${index + 1}`} key={collection}>
             <h2 className="wedding-mega-menu__name">{collection}</h2>
-            <span className="wedding-mega-menu__entry wedding-mega-menu__entry--runway">Runway</span>
-            <span className="wedding-mega-menu__entry wedding-mega-menu__entry--lookbook">LookBook</span>
-            <span className="wedding-mega-menu__entry wedding-mega-menu__entry--accessories">Accessories</span>
+            {collectionEntries.map((entry) => index !== 0 || entry.kind === "runway" ? (
+              <a key={entry.kind} className={`wedding-mega-menu__entry wedding-mega-menu__entry--${entry.kind}`} href={`${collectionRoots[index]}/${entry.kind}`} onClick={() => setMenuOpen(false)}>{entry.label}</a>
+            ) : (
+              <span key={entry.kind} className={`wedding-mega-menu__entry wedding-mega-menu__entry--${entry.kind}`}>{entry.label}</span>
+            ))}
           </div>
         ))}
+        <button type="button" className="wedding-mega-menu__close" aria-label="Close collection menu" onClick={() => { setMenuOpen(false); menuTrigger.current?.focus(); }}>Close ×</button>
       </div>
       <nav className="site-header__nav" aria-label="Main navigation">
         <a className={`site-nav site-nav--home${active === "home" ? " is-active" : ""}`} href="/" aria-current={active === "home" ? "page" : undefined} onMouseEnter={() => setMenuOpen(false)} onFocus={() => setMenuOpen(false)}>Home</a>
-        <button className={`site-nav site-nav--wedding${menuOpen ? " is-menu-open" : ""}`} type="button" aria-expanded={menuOpen} aria-controls="wedding-collections-menu" aria-haspopup="true" onMouseEnter={() => setMenuOpen(true)} onFocus={() => setMenuOpen(true)} onClick={() => setMenuOpen(true)}>Wedding Dresses</button>
+        <button ref={menuTrigger} className={`site-nav site-nav--wedding${active === "wedding" ? " is-active" : ""}${menuOpen ? " is-menu-open" : ""}`} type="button" aria-expanded={menuOpen} aria-controls="wedding-collections-menu" aria-haspopup="true" onMouseEnter={() => setMenuOpen(true)} onKeyDown={(event) => { if (event.key === "ArrowDown") { event.preventDefault(); setMenuOpen(true); focusFirstCollection(); } }} onClick={(event) => { setMenuOpen(true); if (event.detail === 0) focusFirstCollection(); }}>Wedding Dresses</button>
         <a className="site-wordmark" href="/" aria-label="Marrow home" onMouseEnter={() => setMenuOpen(false)} onFocus={() => setMenuOpen(false)}><img src="/marrow-wordmark.png" alt="Marrow" /></a>
         {rightLinks.map((link) => (
           <a key={link.page} className={`site-nav site-nav--${link.page}${active === link.page ? " is-active" : ""}`} href={link.href} aria-current={active === link.page ? "page" : undefined} onMouseEnter={() => setMenuOpen(false)} onFocus={() => setMenuOpen(false)}>{link.label}</a>

@@ -1,20 +1,16 @@
 import { getBucket, isMediaAdmin, isMediaSlot, readManifest, writeManifest } from "../../../media-store";
+import { isSameOrigin } from "../../../admin-auth-crypto";
 
 export const dynamic = "force-dynamic";
 
 export async function GET() {
-  if (!(await isMediaAdmin())) return Response.json({ error: "Forbidden" }, { status: 403 });
+  if (!(await isMediaAdmin())) return Response.json({ error: "请先登录后台。" }, { status: 403, headers: { "Cache-Control": "private, no-store" } });
   return Response.json(await readManifest(), { headers: { "Cache-Control": "no-store" } });
 }
 
 export async function POST(request: Request) {
-  if (!(await isMediaAdmin())) return Response.json({ error: "Forbidden" }, { status: 403 });
-  const origin = request.headers.get("origin");
-  try {
-    if (!origin || new URL(origin).host !== new URL(request.url).host) return Response.json({ error: "Invalid origin" }, { status: 403 });
-  } catch {
-    return Response.json({ error: "Invalid origin" }, { status: 403 });
-  }
+  if (!(await isMediaAdmin())) return Response.json({ error: "请先登录后台。" }, { status: 403, headers: { "Cache-Control": "private, no-store" } });
+  if (!isSameOrigin(request)) return Response.json({ error: "Invalid origin" }, { status: 403, headers: { "Cache-Control": "private, no-store" } });
   const form = await request.formData();
   const slot = form.get("slot");
   if (typeof slot !== "string" || !isMediaSlot(slot)) return Response.json({ error: "Invalid slot" }, { status: 400 });
@@ -43,5 +39,5 @@ export async function POST(request: Request) {
     return Response.json({ error: "Choose a file or enter a URL" }, { status: 400 });
   }
   await writeManifest(manifest);
-  return Response.json({ ok: true, manifest });
+  return Response.json({ ok: true, manifest }, { headers: { "Cache-Control": "private, no-store" } });
 }

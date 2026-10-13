@@ -1,14 +1,13 @@
 import { env } from "cloudflare:workers";
-import { headers } from "next/headers";
-import { getChatGPTUser } from "./chatgpt-auth";
 import { defaults, type MediaManifest, type MediaSlot } from "./media-config";
 export { defaults, MEDIA_SLOTS, isMediaSlot } from "./media-config";
 export type { MediaManifest, MediaSlot } from "./media-config";
+export { isMediaAdmin } from "./admin-auth";
 
-type StoredObject = { body: ReadableStream; httpMetadata?: { contentType?: string } };
+type StoredObject = { body: ReadableStream; etag: string; httpMetadata?: { contentType?: string } };
 type Bucket = {
   get(key: string): Promise<StoredObject | null>;
-  put(key: string, value: ReadableStream | string, options?: { httpMetadata?: { contentType: string } }): Promise<unknown>;
+  put(key: string, value: ReadableStream | string, options?: { httpMetadata?: { contentType: string }; onlyIf?: Headers | { etagMatches: string } }): Promise<{ etag: string } | null>;
 };
 
 export function getBucket(): Bucket | null {
@@ -39,14 +38,4 @@ export function mediaUrl(slot: MediaSlot, manifest: MediaManifest): string {
   if (item?.type === "external" && item.url) return item.url;
   if (item?.type === "upload" && item.key) return `/api/media/${slot}?v=${item.updatedAt}`;
   return defaults[slot];
-}
-
-const OWNER_USER_ID = "3f675b26-26ba-45a7-b4c8-f17fc48a8b04";
-
-export async function isMediaAdmin(): Promise<boolean> {
-  const user = await getChatGPTUser();
-  if (user) return user.userId === OWNER_USER_ID;
-  if (process.env.NODE_ENV !== "development") return false;
-  const host = (await headers()).get("host") ?? "";
-  return /^(localhost|127\.0\.0\.1)(:\d+)?$/.test(host);
 }

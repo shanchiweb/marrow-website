@@ -1,0 +1,495 @@
+{
+  "background": "#fffdf2",
+  "pages": [
+    {
+      "page": 1,
+      "width": 1920,
+      "height": 3503.8,
+      "cards": [
+        {
+          "label": "Bowknot Gloves",
+          "asset": "/design/2025/accessory-01.jpg",
+          "crop": [
+            93,
+            875,
+            466,
+            1413
+          ],
+          "x": 93.0,
+          "y": 875.0,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 1451.819,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Bowknot Soft Veil",
+          "asset": "/design/2025/accessory-02.jpg",
+          "crop": [
+            546,
+            875,
+            919,
+            1413
+          ],
+          "x": 546.3942870000001,
+          "y": 875.0,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 1451.819,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Little Lace Veil",
+          "asset": "/design/2025/accessory-03.jpg",
+          "crop": [
+            1000,
+            875,
+            1373,
+            1413
+          ],
+          "x": 999.788574,
+          "y": 875.0,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 1451.819,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Flower Hat",
+          "asset": "/design/2025/accessory-04.jpg",
+          "crop": [
+            1453,
+            875,
+            1826,
+            1413
+          ],
+          "x": 1453.182861,
+          "y": 875.0,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 1451.819,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Flower Song Veil",
+          "asset": "/design/2025/accessory-05.jpg",
+          "crop": [
+            93,
+            1534,
+            466,
+            2072
+          ],
+          "x": 93.0,
+          "y": 1534.0957039999998,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 2110.914704,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Little Flower Veil",
+          "asset": "/design/2025/accessory-06.jpg",
+          "crop": [
+            546,
+            1534,
+            919,
+            2072
+          ],
+          "x": 546.3942870000001,
+          "y": 1534.0957039999998,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 2110.914704,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Bowknot",
+          "asset": "/design/2025/accessory-07.jpg",
+          "crop": [
+            1000,
+            1534,
+            1373,
+            2072
+          ],
+          "x": 999.788574,
+          "y": 1534.0957039999998,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 2110.914704,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Pink Bowknot Veil",
+          "asset": "/design/2025/accessory-08.jpg",
+          "crop": [
+            1453,
+            1534,
+            1826,
+            2072
+          ],
+          "x": 1453.182861,
+          "y": 1534.0957039999998,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 2110.914704,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Navy Hat",
+          "asset": "/design/2025/accessory-09.jpg",
+          "crop": [
+            93,
+            2193,
+            466,
+            2731
+          ],
+          "x": 93.0,
+          "y": 2193.1914079999997,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 2770.010408,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "width": 1920,
+      "height": 4816.31,
+      "cards": [
+        {
+          "label": "Aurora",
+          "asset": "/design/2025/dress-01.jpg",
+          "crop": [
+            93,
+            875,
+            466,
+            1413
+          ],
+          "x": 93.0,
+          "y": 875.0,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 1451.819,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Blue Psyche",
+          "asset": "/design/2025/dress-02.jpg",
+          "crop": [
+            546,
+            875,
+            919,
+            1413
+          ],
+          "x": 546.3942870000001,
+          "y": 875.0,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 1451.819,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Blue Rose",
+          "asset": "/design/2025/dress-03.jpg",
+          "crop": [
+            1000,
+            875,
+            1373,
+            1413
+          ],
+          "x": 999.788574,
+          "y": 875.0,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 1451.819,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Eastern Rose",
+          "asset": "/design/2025/dress-04.jpg",
+          "crop": [
+            1453,
+            875,
+            1826,
+            1413
+          ],
+          "x": 1453.182861,
+          "y": 875.0,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 1451.819,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Floral Song",
+          "asset": "/design/2025/dress-05.jpg",
+          "crop": [
+            93,
+            1534,
+            466,
+            2072
+          ],
+          "x": 93.0,
+          "y": 1534.0957039999998,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 2110.914704,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Isabella",
+          "asset": "/design/2025/dress-06.jpg",
+          "crop": [
+            546,
+            1534,
+            919,
+            2072
+          ],
+          "x": 546.3942870000001,
+          "y": 1534.0957039999998,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 2110.914704,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Little Cake",
+          "asset": "/design/2025/dress-07.jpg",
+          "crop": [
+            1000,
+            1534,
+            1373,
+            2072
+          ],
+          "x": 999.788574,
+          "y": 1534.0957039999998,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 2110.914704,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Little Cloud",
+          "asset": "/design/2025/dress-08.jpg",
+          "crop": [
+            1453,
+            1534,
+            1826,
+            2072
+          ],
+          "x": 1453.182861,
+          "y": 1534.0957039999998,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 2110.914704,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Madeleine",
+          "asset": "/design/2025/dress-09.jpg",
+          "crop": [
+            93,
+            2193,
+            466,
+            2731
+          ],
+          "x": 93.0,
+          "y": 2193.1914079999997,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 2770.010408,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Natalia",
+          "asset": "/design/2025/dress-10.jpg",
+          "crop": [
+            546,
+            2193,
+            919,
+            2731
+          ],
+          "x": 546.3942870000001,
+          "y": 2193.1914079999997,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 2770.010408,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Ophelia",
+          "asset": "/design/2025/dress-11.jpg",
+          "crop": [
+            1000,
+            2193,
+            1373,
+            2731
+          ],
+          "x": 999.788574,
+          "y": 2193.1914079999997,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 2770.010408,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Psyche",
+          "asset": "/design/2025/dress-12.jpg",
+          "crop": [
+            1453,
+            2193,
+            1826,
+            2731
+          ],
+          "x": 1453.182861,
+          "y": 2193.1914079999997,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 2770.010408,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Rosa Rosa",
+          "asset": "/design/2025/dress-13.jpg",
+          "crop": [
+            93,
+            2852,
+            466,
+            3390
+          ],
+          "x": 93.0,
+          "y": 2852.287112,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 3429.106112,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Rose Poem",
+          "asset": "/design/2025/dress-14.jpg",
+          "crop": [
+            546,
+            2852,
+            919,
+            3390
+          ],
+          "x": 546.3942870000001,
+          "y": 2852.287112,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 3429.106112,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Ruby",
+          "asset": "/design/2025/dress-15.jpg",
+          "crop": [
+            1000,
+            2852,
+            1373,
+            3390
+          ],
+          "x": 999.788574,
+          "y": 2852.287112,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 3429.106112,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Silver Bowknot",
+          "asset": "/design/2025/dress-16.jpg",
+          "crop": [
+            1453,
+            2852,
+            1826,
+            3390
+          ],
+          "x": 1453.182861,
+          "y": 2852.287112,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 3429.106112,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Sissie",
+          "asset": "/design/2025/dress-17.jpg",
+          "crop": [
+            93,
+            3511,
+            466,
+            4049
+          ],
+          "x": 93.0,
+          "y": 3511.382816,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 4088.201816,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Stardust",
+          "asset": "/design/2025/dress-18.jpg",
+          "crop": [
+            546,
+            3511,
+            919,
+            4049
+          ],
+          "x": 546.3942870000001,
+          "y": 3511.382816,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 4088.201816,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Yuriko",
+          "asset": "/design/2025/dress-19.jpg",
+          "crop": [
+            1000,
+            3511,
+            1373,
+            4049
+          ],
+          "x": 999.788574,
+          "y": 3511.382816,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 4088.201816,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        }
+      ]
+    }
+  ]
+}

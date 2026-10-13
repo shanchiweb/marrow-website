@@ -1,0 +1,237 @@
+/* Futur 2026 gallery layouts, scaled from the 1920px PDF references. */
+.futur-page {
+  width: 100%;
+  overflow: hidden;
+  background: var(--cream);
+}
+
+.futur-stage {
+  position: relative;
+  background: var(--cream);
+}
+
+.futur-stage--accessories {
+  height: calc(3177.59 * var(--unit));
+}
+
+.futur-stage--lookbook {
+  height: calc(5157.64 * var(--unit));
+}
+
+.futur-title {
+  position: absolute;
+  top: calc(230.04 * var(--unit));
+  left: calc(76.20345 * var(--unit));
+  width: calc(397.88479 * var(--unit));
+  margin: 0;
+}
+
+.futur-title img {
+  width: 100%;
+  height: auto;
+}
+
+.futur-subtitle,
+.futur-explore {
+  position: absolute;
+  margin: 0;
+  color: var(--ink);
+  font-family: "Luxurious Script", cursive;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.futur-subtitle {
+  top: calc(732.742 * var(--unit));
+  left: calc(102.321 * var(--unit));
+  font-size: calc(40 * var(--unit));
+}
+
+.futur-copy {
+  position: absolute;
+  top: calc(226.206 * var(--unit));
+  left: calc(1007.701 * var(--unit));
+  width: calc(814.5 * var(--unit));
+  font-size: calc(17 * var(--unit));
+  line-height: calc(25.007 * var(--unit));
+  letter-spacing: calc(1.36 * var(--unit));
+}
+
+.futur-copy p {
+  margin: 0 0 calc(25.007 * var(--unit));
+}
+
+.futur-copy p:last-child {
+  margin-bottom: 0;
+}
+
+.futur-flower {
+  position: absolute;
+  width: calc(63.5024 * var(--unit));
+  height: calc(56.34585 * var(--unit));
+  object-fit: contain;
+  pointer-events: none;
+}
+
+.futur-flower--upper {
+  top: calc(203.78844 * var(--unit));
+  left: calc(871.63204 * var(--unit));
+  transform: scaleX(-1);
+}
+
+.futur-flower--lower {
+  top: calc(788.0201 * var(--unit));
+  left: calc(570.55191 * var(--unit));
+  width: calc(62.20467 * var(--unit));
+  height: calc(55.19438 * var(--unit));
+}
+
+.futur-stage--lookbook .futur-flower--upper {
+  top: calc(230.04498 * var(--unit));
+  left: calc(776.44869 * var(--unit));
+}
+
+.futur-stage--lookbook .futur-flower--lower {
+  top: calc(818.2371 * var(--unit));
+  left: calc(1753.41884 * var(--unit));
+}
+
+.futur-gallery {
+  position: absolute;
+  top: calc(975 * var(--unit));
+  left: calc(93 * var(--unit));
+  display: grid;
+  grid-template-columns: repeat(4, calc(373 * var(--unit)));
+  column-gap: calc(80.394287 * var(--unit));
+  row-gap: calc(75.548704 * var(--unit));
+}
+
+.futur-card {
+  width: calc(373 * var(--unit));
+  margin: 0;
+}
+
+.futur-card img {
+  width: 100%;
+  height: calc(538 * var(--unit));
+  object-fit: contain;
+}
+
+.futur-card figcaption {
+  margin-top: calc(20.54 * var(--unit));
+  color: var(--ink);
+  font-size: calc(17 * var(--unit));
+  line-height: calc(25.007 * var(--unit));
+  letter-spacing: calc(1.36 * var(--unit));
+  text-align: center;
+}
+
+.futur-explore {
+  top: calc(3002.198 * var(--unit));
+  left: calc(100 * var(--unit));
+  font-size: calc(25 * var(--unit));
+}
+
+.futur-stage--lookbook .futur-explore {
+  top: calc(4979.995 * var(--unit));
+}
+
+.futur-explore:hover,
+.futur-explore:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: calc(5 * var(--unit));
+}
+
+.futur-explore:focus-visible {
+  outline: 1px solid currentColor;
+  outline-offset: 5px;
+}
+
+@media (max-width: 700px) {
+  .futur-stage--accessories,
+  .futur-stage--lookbook {
+    height: auto;
+    padding: 155px 20px 80px;
+  }
+
+  .futur-introduction {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 45px;
+  }
+
+  .futur-title,
+  .futur-subtitle,
+  .futur-copy,
+  .futur-gallery,
+  .futur-explore {
+    position: static;
+  }
+
+  .futur-title {
+    width: min(78%, 300px);
+    margin: 0 0 30px -8px;
+  }
+
+  .futur-copy {
+    order: 1;
+    width: auto;
+    font-size: 13px;
+    line-height: 1.75;
+    letter-spacing: .45px;
+  }
+
+  .futur-copy p {
+    margin-bottom: 20px;
+  }
+
+  .futur-subtitle {
+    order: 2;
+    margin: 32px 0 0;
+    font-size: 32px;
+  }
+
+  .futur-flower--upper,
+  .futur-stage--lookbook .futur-flower--upper {
+    top: 4px;
+    left: auto;
+    right: 0;
+    width: 34px;
+    height: 34px;
+  }
+
+  .futur-flower--lower {
+    display: none;
+  }
+
+  .futur-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 16px;
+    row-gap: 30px;
+  }
+
+  .futur-card {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .futur-card img {
+    height: auto;
+    aspect-ratio: 373 / 538;
+  }
+
+  .futur-card figcaption {
+    margin-top: 12px;
+    font-size: 11px;
+    line-height: 1.4;
+    letter-spacing: .3px;
+  }
+
+  .futur-explore,
+  .futur-stage--lookbook .futur-explore {
+    display: inline-block;
+    margin-top: 56px;
+    font-size: 27px;
+  }
+}

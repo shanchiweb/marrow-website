@@ -1,0 +1,37 @@
+.futur-runway-page { width: 100%; overflow: hidden; background: #f5f5f5 url("/design/2026/runway-background.jpg") center top / 100% auto repeat-y; }
+.futur-runway-stage { position: relative; height: calc(2022.3865 * var(--unit)); }
+.futur-runway-title { position: absolute; top: calc(299.02895 * var(--unit)); left: calc(80.7272 * var(--unit)); width: calc(397.8848 * var(--unit)); height: calc(150.8739 * var(--unit)); margin: 0; }
+.futur-runway-title img { width: 100%; height: 100%; object-fit: contain; }
+.futur-runway-film { position: absolute; top: calc(720.0754 * var(--unit)); left: calc(100 * var(--unit)); width: calc(566.7005 * var(--unit)); height: calc(841.808 * var(--unit)); background: #e7e7e7; }
+.futur-runway-film img, .futur-runway-film video { display: block; width: 100%; height: 100%; object-fit: cover; }
+.futur-runway-film__error { position: absolute; right: 0; bottom: 0; left: 0; margin: 0; padding: 12px; color: #fff; background: #4d4d4ddb; font-size: 12px; text-align: center; }
+.futur-runway-middle { position: absolute; top: calc(465.03 * var(--unit)); left: calc(965 * var(--unit)); width: calc(278.35 * var(--unit)); height: calc(417.316 * var(--unit)); object-fit: cover; }
+.futur-runway-copy { position: absolute; margin: 0; width: calc(286 * var(--unit)); font-size: calc(17 * var(--unit)); line-height: calc(25.007 * var(--unit)); letter-spacing: calc(1.36 * var(--unit)); }
+.futur-runway-copy p { margin: 0; }
+.futur-runway-copy p + p { margin-top: calc(25.007 * var(--unit)); }
+.futur-runway-copy--inspiration { top: calc(461.1625 * var(--unit)); left: calc(1541.6753 * var(--unit)); }
+.futur-runway-copy--story { top: calc(971.4005 * var(--unit)); left: calc(965.0183 * var(--unit)); }
+.futur-runway-daisy { position: absolute; width: calc(55.8565 * var(--unit)); height: calc(49.5616 * var(--unit)); object-fit: contain; pointer-events: none; }
+.futur-runway-daisy--one { top: calc(435.0814 * var(--unit)); left: calc(638.7723 * var(--unit)); }
+.futur-runway-daisy--two { top: calc(1422.0527 * var(--unit)); left: calc(1764.1434 * var(--unit)); }
+.futur-runway-daisy--three { top: calc(1621.4541 * var(--unit)); left: calc(955.0254 * var(--unit)); }
+.futur-runway-detail { position: absolute; top: calc(1561.157 * var(--unit)); left: calc(1539.922 * var(--unit)); width: calc(278.35 * var(--unit)); height: calc(278.35 * var(--unit)); object-fit: cover; }
+.futur-runway-explore { position: absolute; top: calc(1838.249 * var(--unit)); left: calc(100 * var(--unit)); color: var(--ink); font-family: "Luxurious Script", cursive; font-size: calc(25 * var(--unit)); line-height: 1; }
+.futur-runway-explore:hover, .futur-runway-explore:focus-visible { text-decoration: underline; text-underline-offset: .3em; }
+.futur-runway-page .site-footer { background: transparent; border-color: transparent; }
+.futur-runway-page .site-footer__bottom { border-color: transparent; }
+@media (max-width: 700px) {
+  .futur-runway-stage { display: grid; grid-template-columns: 1fr 1fr; gap: 26px 20px; height: auto; padding: 150px 22px 72px; }
+  .futur-runway-stage > :not(.site-header) { position: static; }
+  .futur-runway-title { grid-column: 1 / -1; width: min(75%, 285px); height: auto; aspect-ratio: 397.8848 / 150.8739; }
+  .futur-runway-film { grid-column: 1 / -1; width: 100%; height: auto; aspect-ratio: 566.7005 / 841.808; }
+  .futur-runway-middle { grid-column: 1 / -1; justify-self: center; width: 65%; height: auto; aspect-ratio: 278.35 / 417.316; }
+  .futur-runway-copy { grid-column: 1 / -1; width: 100%; font-size: 13px; line-height: 1.75; letter-spacing: .45px; }
+  .futur-runway-copy p + p { margin-top: 20px; }
+  .futur-runway-daisy { width: 34px; height: auto; }
+  .futur-runway-daisy--one { grid-column: 2; justify-self: end; margin-top: -30px; }
+  .futur-runway-daisy--two { grid-column: 2; justify-self: end; }
+  .futur-runway-daisy--three { grid-column: 1; align-self: center; }
+  .futur-runway-detail { grid-column: 2; width: 100%; height: auto; aspect-ratio: 1; }
+  .futur-runway-explore { grid-column: 1 / -1; margin-top: 26px; font-size: 24px; }
+}

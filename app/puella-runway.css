@@ -1,0 +1,29 @@
+.puella-runway-page { width: 100%; overflow: hidden; color: #fff; background: #ffa1be url("/design/2027/runway-background.jpg") center top / 100% auto repeat-y; }
+.puella-runway-stage { position: relative; height: calc(1762.6065 * var(--unit)); }
+.puella-runway-title { position: absolute; top: calc(302 * var(--unit)); left: calc(103.5 * var(--unit)); width: calc(397.5 * var(--unit)); height: calc(145.5 * var(--unit)); margin: 0; }
+.puella-runway-title img { width: 100%; height: 100%; object-fit: contain; }
+.puella-runway-film { position: absolute; top: calc(720.084 * var(--unit)); left: calc(100 * var(--unit)); width: calc(566.7 * var(--unit)); height: calc(841.809 * var(--unit)); background: #b4ac8c; }
+.puella-runway-film img, .puella-runway-film video { display: block; width: 100%; height: 100%; object-fit: cover; }
+.puella-runway-film__error { position: absolute; right: 0; bottom: 0; left: 0; margin: 0; padding: 12px; color: #fff; background: #4d4d4ddb; font-size: 12px; text-align: center; }
+.puella-runway-middle { position: absolute; top: calc(465.039 * var(--unit)); left: calc(963.033 * var(--unit)); width: calc(278.325 * var(--unit)); height: calc(368.895 * var(--unit)); object-fit: cover; }
+.puella-runway-copy { position: absolute; top: calc(461.1716 * var(--unit)); left: calc(1541.6753 * var(--unit)); width: calc(286 * var(--unit)); font-size: calc(17 * var(--unit)); line-height: calc(25.007 * var(--unit)); letter-spacing: calc(1.36 * var(--unit)); }
+.puella-runway-copy p { margin: 0; }
+.puella-runway-copy p + p { margin-top: calc(25.007 * var(--unit)); }
+.puella-runway-heart { position: absolute; top: calc(1170 * var(--unit)); left: calc(1217.5 * var(--unit)); width: calc(378 * var(--unit)); height: calc(333 * var(--unit)); object-fit: contain; }
+.puella-runway-page .site-footer { color: #fff; background: transparent; border-color: #ffffff70; }
+.puella-runway-page .site-footer__column { font-size: calc(17 * var(--unit)); line-height: calc(25.007 * var(--unit)); gap: calc(8.9 * var(--unit)); }
+.puella-runway-page .site-footer__email input { color: #fff; border-color: #fff; }
+.puella-runway-page .site-footer__email input::placeholder { color: #ffffffdf; }
+.puella-runway-page .site-footer__bottom { border-color: #ffffff70; }
+.puella-runway-page .site-footer__bottom img { filter: brightness(0) invert(1); }
+@media (max-width: 700px) {
+  .puella-runway-stage { display: grid; grid-template-columns: 1fr 1fr; gap: 28px 20px; height: auto; padding: 155px 22px 72px; }
+  .puella-runway-stage > :not(.site-header) { position: static; }
+  .puella-runway-title { grid-column: 1 / -1; width: min(80%, 300px); height: auto; aspect-ratio: 400 / 150; margin-bottom: 16px; }
+  .puella-runway-film { grid-column: 1 / -1; width: 100%; height: auto; aspect-ratio: 566.7 / 841.809; }
+  .puella-runway-middle { grid-column: 1 / -1; justify-self: center; width: 65%; height: auto; aspect-ratio: 278.325 / 368.895; }
+  .puella-runway-copy { grid-column: 1 / -1; width: 100%; font-size: 13px; line-height: 1.75; letter-spacing: .45px; }
+  .puella-runway-copy p + p { margin-top: 20px; }
+  .puella-runway-heart { grid-column: 1 / -1; justify-self: end; width: 75%; height: auto; aspect-ratio: 380 / 340; }
+  .puella-runway-page .site-footer__column { font-size: 12px; line-height: 1.5; gap: 11px; }
+}

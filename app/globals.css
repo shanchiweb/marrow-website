@@ -835,3 +835,20 @@ html { scroll-behavior: smooth; }
 .admin-actions button:disabled { opacity: .45; cursor: not-allowed; }
 .admin-message { min-height: 20px; margin: 16px 0 0; color: #74716a; font-size: 12px; }
 @media (max-width: 700px) { .admin-header { height: 76px; } .admin-intro { padding: 45px 0 35px; } .admin-grid { grid-template-columns: 1fr; gap: 22px; } .admin-preview { height: 220px; } .admin-card__body { padding: 19px; } .editorial-custom-cursor { font-size: 11px; line-height: 1.4; letter-spacing: .5px; } }
+
+.admin-login-panel { width: min(100%, 440px); margin: clamp(60px, 11vh, 140px) auto 0; }
+.admin-login-overline { color: var(--blue); font-size: 11px; line-height: 1.6; letter-spacing: 2px; }
+.admin-login-panel h1 { margin: 18px 0; font-size: 32px; font-weight: 400; letter-spacing: 2px; }
+.admin-login-copy { margin: 0 0 32px; font-size: 14px; line-height: 1.8; }
+.admin-login-panel form { display: grid; gap: 12px; }
+.admin-login-panel label { font-size: 13px; letter-spacing: 1px; }
+.admin-login-panel input { width: 100%; min-height: 48px; padding: 12px 14px; border: 1px solid #c9c4b8; border-radius: 0; background: transparent; color: var(--ink); font: inherit; font-size: 16px; }
+.admin-login-panel input:focus-visible { outline: 2px solid var(--blue); outline-offset: 3px; }
+.admin-login-panel button { min-height: 48px; margin-top: 8px; border: 1px solid var(--ink); background: var(--ink); color: var(--cream); font: inherit; font-size: 14px; letter-spacing: 1px; cursor: pointer; }
+.admin-login-panel button:disabled, .admin-logout:disabled { opacity: .5; cursor: not-allowed; }
+.admin-login-error { min-height: 22px; margin: 0; color: #8c3c43; font-size: 13px; line-height: 1.7; }
+.admin-header-actions { display: flex; align-items: center; gap: 24px; }
+.admin-logout { padding: 8px 12px; border: 1px solid #c9c4b8; background: transparent; color: var(--ink); font: inherit; cursor: pointer; }
+.admin-logout:hover:not(:disabled) { border-color: var(--ink); }
+.admin-logout-error { margin: 16px 0 0; color: #8c3c43; font-size: 13px; }
+@media (max-width: 700px) { .admin-login-panel h1 { font-size: 28px; } .admin-header-actions { gap: 12px; } .admin-logout { padding: 7px 9px; font-size: 12px; } }
