@@ -5,8 +5,10 @@ import { subscribers } from "../../../db/schema";
 
 export const dynamic = "force-dynamic";
 
-// 收到订阅通知的邮箱（已在 Cloudflare Email Routing 中验证）
-const NOTIFY_TO = "chenyi9705@gmail.com";
+// 收到订阅通知的邮箱。
+// ⚠️ 每个地址都必须先在 Cloudflare 里完成验证，否则发信会失败。
+// 需要多人同时收到通知时，往数组里加地址即可（每个收件人各收一封，互相看不到对方）。
+const NOTIFY_TO = ["marrowbridal@126.com"];
 // 发件地址，必须属于已接入 Cloudflare 邮件服务的域名
 const FROM_ADDRESS = "notify@marrowbridal.com";
 
@@ -101,23 +103,19 @@ export async function POST(request: Request) {
   if (mailer) {
     const now = new Date().toISOString().replace("T", " ").slice(0, 16);
     const safeEmail = escapeHtml(email);
-    try {
-      await mailer.send({
-        to: NOTIFY_TO,
-        from: FROM_ADDRESS,
-        replyTo: email,
-        subject: `Marrow 官网新订阅：${email}`,
-        text: [
-          "Marrow 官网收到一条新的邮箱订阅。",
-          "",
-          `邮箱：${email}`,
-          `时间：${now} UTC`,
-          `来源：${source ?? "未知"}`,
-          `地区：${country ?? "未知"}`,
-          "",
-          "（直接回复这封邮件即可联系对方）",
-        ].join("\n"),
-        html: `
+
+    const subject = `Marrow 官网新订阅：${email}`;
+    const text = [
+      "Marrow 官网收到一条新的邮箱订阅。",
+      "",
+      `邮箱：${email}`,
+      `时间：${now} UTC`,
+      `来源：${source ?? "未知"}`,
+      `地区：${country ?? "未知"}`,
+      "",
+      "（直接回复这封邮件即可联系对方）",
+    ].join("\n");
+    const html = `
           <div style="font-family:-apple-system,'PingFang SC',Helvetica,sans-serif;line-height:1.7;color:#1c1a17">
             <p style="margin:0 0 18px">Marrow 官网收到一条新的邮箱订阅。</p>
             <table style="border-collapse:collapse;font-size:14px">
@@ -128,22 +126,36 @@ export async function POST(request: Request) {
             </table>
             <p style="margin:20px 0 0;color:#8a8378;font-size:13px">直接回复这封邮件即可联系对方。</p>
           </div>
-        `,
-      });
-      notified = true;
-      // 记录通知已成功发出，便于日后排查漏发
-      if (db) {
-        try {
-          await getDb()
-            .update(subscribers)
-            .set({ notifiedAt: sql`(datetime('now'))` })
-            .where(eq(subscribers.email, email));
-        } catch (error) {
-          console.error("记录通知状态失败:", error);
-        }
+        `;
+
+    // 逐个收件人发送：每个地址单独一封，互相看不到对方
+    for (const recipient of NOTIFY_TO) {
+      try {
+        await mailer.send({
+          to: recipient,
+          from: FROM_ADDRESS,
+          replyTo: email,
+          subject,
+          text,
+          html,
+        });
+        notified = true;
+      } catch (error) {
+        // 单个地址失败不影响其他收件人（例如该地址还没完成验证）
+        console.error(`订阅通知邮件发送失败 (${recipient}):`, error);
       }
-    } catch (error) {
-      console.error("订阅通知邮件发送失败:", error);
+    }
+
+    // 记录通知已成功发出，便于日后排查漏发
+    if (notified && db) {
+      try {
+        await getDb()
+          .update(subscribers)
+          .set({ notifiedAt: sql`(datetime('now'))` })
+          .where(eq(subscribers.email, email));
+      } catch (error) {
+        console.error("记录通知状态失败:", error);
+      }
     }
   }
 
