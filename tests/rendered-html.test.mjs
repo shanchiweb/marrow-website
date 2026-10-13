@@ -14,7 +14,9 @@ test("navigation keeps the requested pages and replaces the Wedding Dresses rout
   assert.doesNotMatch(header, /href="\/wedding-dresses"/);
   assert.match(header, /<button[^>]+aria-controls="wedding-collections-menu"/);
   assert.match(header, /const collections = \["Puella Aeterna\.", "Futur\.", "Psyche and Eros\."\]/);
-  for (const item of ["Runway", "LookBook", "Accessories"]) assert.match(header, new RegExp(`<span[^>]*>${item}</span>`));
+  for (const item of ["Runway", "LookBook", "Accessories"]) assert.match(header, new RegExp(`label: "${item}"`));
+  assert.match(header, /const collectionRoots = \["\/collections\/puella-aeterna", "\/collections\/futur", "\/collections\/psyche-and-eros"\]/);
+  assert.match(header, /href={`\$\{collectionRoots\[index\]\}\/\$\{entry.kind\}`}/);
   await Promise.all(["app/page.tsx", "app/about/page.tsx", "app/boutique/page.tsx", "app/retailers/page.tsx"].map((path) => access(new URL(path, root))));
   await assert.rejects(access(new URL("app/wedding-dresses/page.tsx", root)), { code: "ENOENT" });
 });

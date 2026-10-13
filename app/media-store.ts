@@ -4,10 +4,10 @@ export { defaults, MEDIA_SLOTS, isMediaSlot } from "./media-config";
 export type { MediaManifest, MediaSlot } from "./media-config";
 export { isMediaAdmin } from "./admin-auth";
 
-type StoredObject = { body: ReadableStream; httpMetadata?: { contentType?: string } };
+type StoredObject = { body: ReadableStream; etag: string; httpMetadata?: { contentType?: string } };
 type Bucket = {
   get(key: string): Promise<StoredObject | null>;
-  put(key: string, value: ReadableStream | string, options?: { httpMetadata?: { contentType: string } }): Promise<unknown>;
+  put(key: string, value: ReadableStream | string, options?: { httpMetadata?: { contentType: string }; onlyIf?: Headers | { etagMatches: string } }): Promise<{ etag: string } | null>;
 };
 
 export function getBucket(): Bucket | null {

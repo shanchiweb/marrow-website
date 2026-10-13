@@ -1,0 +1,50 @@
+.wedding-mega-menu a.wedding-mega-menu__entry { cursor: pointer; }
+.wedding-mega-menu a.wedding-mega-menu__entry:hover,
+.wedding-mega-menu a.wedding-mega-menu__entry:focus-visible { text-decoration: underline; text-underline-offset: .3em; }
+.wedding-mega-menu__close { display: none; }
+.site-nav.is-active::after { transform: scaleX(1); }
+.editorial-frame__link { position: absolute; inset: 0; }
+.editorial-frame__link:focus-visible { outline: 2px solid var(--blue); outline-offset: -4px; }
+.admin-media-group + .admin-media-group { margin-top: 56px; }
+.admin-group-heading { display: flex; justify-content: space-between; align-items: flex-start; gap: 20px; margin: 0 0 24px; }
+.admin-group-heading h2 { margin: 0 0 12px; font-size: 24px; font-weight: 400; letter-spacing: 1px; }
+.admin-group-heading p { margin: 0; font-size: 13px; line-height: 1.8; }
+.admin-group-heading > a { flex-shrink: 0; padding-top: 7px; color: var(--blue); font-size: 13px; }
+.admin-card__heading h3 { margin: 0; font-size: 21px; font-weight: 400; }
+.admin-message a { color: var(--blue); text-decoration: underline; text-underline-offset: 3px; }
+.psyche-runway-page { width: 100%; overflow: hidden; background: var(--cream); }
+.psyche-runway-stage { position: relative; height: calc(2022.3865 * var(--unit)); }
+.psyche-runway-title { position: absolute; top: calc(227.218 * var(--unit)); left: calc(107.079 * var(--unit)); margin: 0; color: #960000; font-family: "Luxurious Script", cursive; font-weight: 400; font-size: calc(99.9186 * var(--unit)); line-height: 1; }
+.psyche-runway-film { position: absolute; top: calc(720.075 * var(--unit)); left: calc(100 * var(--unit)); width: calc(566.7 * var(--unit)); height: calc(841.808 * var(--unit)); background: #eeeae0; }
+.psyche-runway-film img, .psyche-runway-film video { display: block; width: 100%; height: 100%; object-fit: cover; }
+.psyche-runway-film__error { position: absolute; right: 0; bottom: 0; left: 0; margin: 0; padding: 12px; color: #fff; background: #4d4d4ddb; font-size: 12px; text-align: center; }
+.psyche-runway-middle { position: absolute; top: calc(465.03 * var(--unit)); left: calc(965 * var(--unit)); width: calc(278.35 * var(--unit)); height: calc(417.316 * var(--unit)); object-fit: cover; }
+.psyche-runway-copy { position: absolute; margin: 0; width: calc(280 * var(--unit)); font-size: calc(17 * var(--unit)); line-height: calc(25.007 * var(--unit)); letter-spacing: calc(1.36 * var(--unit)); }
+.psyche-runway-copy p { margin: 0; }
+.psyche-runway-copy p + p { margin-top: calc(25.007 * var(--unit)); }
+.psyche-runway-copy--inspiration { top: calc(461.1625 * var(--unit)); left: calc(1541.675 * var(--unit)); width: calc(286 * var(--unit)); }
+.psyche-runway-copy--story { top: calc(971.2985 * var(--unit)); left: calc(965.018 * var(--unit)); }
+.psyche-runway-rose { position: absolute; height: auto; pointer-events: none; }
+.psyche-runway-rose--garland { top: calc(744.499 * var(--unit)); left: calc(1659.851 * var(--unit)); width: calc(224.355 * var(--unit)); }
+.psyche-runway-rose--single { top: calc(1370.56 * var(--unit)); left: calc(943.77 * var(--unit)); width: calc(104 * var(--unit)); }
+.psyche-runway-detail { position: absolute; top: calc(1422.709 * var(--unit)); left: calc(1539.922 * var(--unit)); width: calc(278.35 * var(--unit)); height: calc(278.35 * var(--unit)); object-fit: cover; }
+.psyche-runway-explore { position: absolute; top: calc(1838.249 * var(--unit)); left: calc(100 * var(--unit)); color: #960000; font-family: "Luxurious Script", cursive; font-size: calc(25 * var(--unit)); line-height: 1; }
+.psyche-runway-explore:hover, .psyche-runway-explore:focus-visible { text-decoration: underline; text-underline-offset: .3em; }
+@media (max-width: 700px) {
+  .editorial-stage > .editorial-frame { position: relative; inset: auto; }
+  .site-header__nav .site-nav { position: relative; inset: auto; }
+  .admin-group-heading { flex-direction: column; gap: 10px; }
+  .wedding-mega-menu__close { position: absolute; top: 96px; right: 24px; display: block; padding: 6px 0; border: 0; color: var(--ink); background: transparent; cursor: pointer; font-size: 12px; letter-spacing: 1px; }
+  .psyche-runway-stage { display: grid; grid-template-columns: 1fr 1fr; gap: 26px 20px; height: auto; padding: 150px 22px 72px; }
+  .psyche-runway-stage > :not(.site-header) { position: static; }
+  .psyche-runway-title { grid-column: 1 / -1; margin: 0 0 15px; font-size: clamp(44px, 10vw, 70px); }
+  .psyche-runway-film { grid-column: 1 / -1; width: 100%; height: auto; aspect-ratio: 567 / 844; }
+  .psyche-runway-middle { width: 100%; height: auto; aspect-ratio: 278 / 420; }
+  .psyche-runway-copy { width: 100%; font-size: 13px; line-height: 1.7; letter-spacing: .45px; }
+  .psyche-runway-copy p + p { margin-top: 18px; }
+  .psyche-runway-copy--story { grid-column: 1 / -1; max-width: 440px; }
+  .psyche-runway-rose--garland { justify-self: end; align-self: center; width: min(100%, 140px); }
+  .psyche-runway-rose--single { grid-row: 5; width: 60px; }
+  .psyche-runway-detail { grid-column: 2; grid-row: 5 / 7; width: 100%; height: auto; aspect-ratio: 1; }
+  .psyche-runway-explore { grid-column: 1 / -1; margin-top: 26px; font-size: 24px; }
+}

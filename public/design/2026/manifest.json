@@ -1,0 +1,3962 @@
+{
+  "background": "#fffdf2",
+  "pages": [
+    {
+      "page": 1,
+      "width": 1920,
+      "height": 3601.59,
+      "cards": [
+        {
+          "label": "波点花边头纱（长）",
+          "asset": "/design/2026/accessory-01.jpg",
+          "crop": [
+            93,
+            975,
+            466,
+            1513
+          ],
+          "x": 93.0,
+          "y": 975.0,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 1551.8244,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "波点花边头纱（短）",
+          "asset": "/design/2026/accessory-02.jpg",
+          "crop": [
+            546,
+            975,
+            919,
+            1513
+          ],
+          "x": 546.3942870000001,
+          "y": 975.0,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 1551.8244,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Brigitte",
+          "asset": "/design/2026/accessory-03.jpg",
+          "crop": [
+            1000,
+            975,
+            1373,
+            1513
+          ],
+          "x": 999.788574,
+          "y": 975.0,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 1551.8244,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Brigitte",
+          "asset": "/design/2026/accessory-04.jpg",
+          "crop": [
+            1453,
+            975,
+            1826,
+            1513
+          ],
+          "x": 1453.182861,
+          "y": 975.0,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 1551.8244,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Bubble",
+          "asset": "/design/2026/accessory-05.jpg",
+          "crop": [
+            93,
+            1634,
+            466,
+            2172
+          ],
+          "x": 93.0,
+          "y": 1634.0957039999998,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 2211.5944,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Dreamy Daisy",
+          "asset": "/design/2026/accessory-06.jpg",
+          "crop": [
+            546,
+            1634,
+            919,
+            2172
+          ],
+          "x": 546.3942870000001,
+          "y": 1634.0957039999998,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 2211.5944,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Mousse",
+          "asset": "/design/2026/accessory-07.jpg",
+          "crop": [
+            1000,
+            1634,
+            1373,
+            2172
+          ],
+          "x": 999.788574,
+          "y": 1634.0957039999998,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 2211.5944,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Perry",
+          "asset": "/design/2026/accessory-08.jpg",
+          "crop": [
+            1453,
+            1634,
+            1826,
+            2172
+          ],
+          "x": 1453.182861,
+          "y": 1634.0957039999998,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 2211.5944,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Rosette Nebula",
+          "asset": "/design/2026/accessory-09.jpg",
+          "crop": [
+            93,
+            2293,
+            466,
+            2831
+          ],
+          "x": 93.0,
+          "y": 2293.1914079999997,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 2870.2594,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Starry River",
+          "asset": "/design/2026/accessory-10.jpg",
+          "crop": [
+            546,
+            2293,
+            919,
+            2831
+          ],
+          "x": 546.3942870000001,
+          "y": 2293.1914079999997,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 2870.2594,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Starry River",
+          "asset": "/design/2026/accessory-11.jpg",
+          "crop": [
+            1000,
+            2293,
+            1373,
+            2831
+          ],
+          "x": 999.788574,
+          "y": 2293.1914079999997,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 2870.2594,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Twiggy",
+          "asset": "/design/2026/accessory-12.jpg",
+          "crop": [
+            1453,
+            2293,
+            1826,
+            2831
+          ],
+          "x": 1453.182861,
+          "y": 2293.1914079999997,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 2870.2594,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        }
+      ],
+      "text": [
+        {
+          "text": "Home Wedding Dresses",
+          "x": 102.5928,
+          "yTop": 80.36100000000033,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            18.0,
+            0.0,
+            0.0,
+            18.0,
+            102.5928,
+            3521.229
+          ],
+          "fontSize": 18.0
+        },
+        {
+          "text": "RetailersAbout Our Boutique",
+          "x": 0.0,
+          "yTop": 3601.59,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "fontSize": 1.0
+        },
+        {
+          "text": "Submit your email address so we can get in touch with you.",
+          "x": 1253.3516,
+          "yTop": 3316.1525,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1253.3516,
+            285.4375
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "name@email.com",
+          "x": 1265.9727,
+          "yTop": 3270.3869,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            16.6667,
+            0.0,
+            0.0,
+            16.6667,
+            1265.9727,
+            331.2031
+          ],
+          "fontSize": 16.6667
+        },
+        {
+          "text": "波点花边头纱（长）",
+          "x": 197.9775,
+          "yTop": 1551.8244,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            197.9775,
+            2049.7656
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Brigitte",
+          "x": 197.9775,
+          "yTop": 1551.8244,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            197.9775,
+            2049.7656
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Bubble Perry",
+          "x": 248.85850000000005,
+          "yTop": 2211.5944,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            248.85850000000005,
+            1389.9956000000002
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Rosette Nebula",
+          "x": 211.88350000000014,
+          "yTop": 2870.2594,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            211.88350000000014,
+            731.3306000000002
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "波点花边头纱（短）",
+          "x": 650.2017,
+          "yTop": 1551.8244,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            650.2017,
+            2049.7656
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Dreamy Daisy",
+          "x": 672.7777,
+          "yTop": 2211.5944,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            672.7777,
+            1389.9956000000002
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Starry River",
+          "x": 681.4816999999999,
+          "yTop": 2870.2594,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            681.4816999999999,
+            731.3306000000002
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Brigitte",
+          "x": 1152.2505,
+          "yTop": 1551.8244,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1152.2505,
+            2049.7656
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Mousse",
+          "x": 1150.3465,
+          "yTop": 2211.5944,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1150.3465,
+            1389.9956000000002
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Starry River Twiggy",
+          "x": 1132.4795000000001,
+          "yTop": 2870.2594,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1132.4795000000001,
+            731.3306000000002
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "© 2026 - Marrow",
+          "x": 100.002,
+          "yTop": 3560.1486,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            15.0,
+            0.0,
+            0.0,
+            15.0,
+            100.002,
+            41.4414
+          ],
+          "fontSize": 15.0
+        },
+        {
+          "text": "Puella Aeterna",
+          "x": 100.0017,
+          "yTop": 3256.1847000000002,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            100.0017,
+            345.4053
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Futur",
+          "x": 100.0017,
+          "yTop": 3289.4707000000003,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            100.0017,
+            312.1193
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Psyche and Eros",
+          "x": 100.0017,
+          "yTop": 3322.7567,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            100.0017,
+            278.8333
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "About",
+          "x": 388.3727,
+          "yTop": 3256.1677,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            388.3727,
+            345.4223
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Our Boutique",
+          "x": 388.3727,
+          "yTop": 3289.4537,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            388.3727,
+            312.1363
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Stockists",
+          "x": 388.3727,
+          "yTop": 3322.7397,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            388.3727,
+            278.8503
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Explore Wedding Dresses",
+          "x": 100.002,
+          "yTop": 3020.9479,
+          "size": 1.0,
+          "font": "/BDNMPQ+LuxuriousScript-Regular",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            25.0,
+            0.0,
+            0.0,
+            25.0,
+            100.002,
+            580.6421
+          ],
+          "fontSize": 25.0
+        },
+        {
+          "text": "Accessories",
+          "x": 102.3208,
+          "yTop": 762.7419,
+          "size": 1.0,
+          "font": "/BDNMPQ+LuxuriousScript-Regular",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            40.0,
+            0.0,
+            0.0,
+            40.0,
+            102.3208,
+            2838.8481
+          ],
+          "fontSize": 40.0
+        },
+        {
+          "text": "Marrow 2026 Collection draws its inspiration from encounters during travels. Standing",
+          "x": 1007.7007,
+          "yTop": 244.48939999999993,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7007,
+            3357.1006
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "within Kyoto's ICC—a 1960s futuristic structure designed by Yukio Ohtani—I suddenly lost",
+          "x": 1007.7007,
+          "yTop": 269.4964,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7007,
+            3332.0936
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "all sense of time.",
+          "x": 1007.7007,
+          "yTop": 294.50340000000006,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7007,
+            3307.0866
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "From that moment, I began contemplating what Marrow's futurism truly means. \"At the",
+          "x": 1007.7007,
+          "yTop": 344.5003999999999,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7007,
+            3257.0896000000002
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Chengdu Art Museum, viewing artist Xu Bing's exhibition, I was profoundly moved by his",
+          "x": 1007.7007,
+          "yTop": 369.50739999999996,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7007,
+            3232.0826
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "words in <Xu Bing Tianshu Rocket>: Human civilization's progress relies on two kinds of",
+          "x": 1007.7007,
+          "yTop": 394.5144,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7007,
+            3207.0756
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "people. Some, like scientists, organize and systematize, understanding the world through",
+          "x": 1007.7007,
+          "yTop": 419.5214000000001,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7007,
+            3182.0686
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "reason. Others, like artists, disrupt these systems. Only when order is loosened do",
+          "x": 1007.7007,
+          "yTop": 444.52840000000015,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7007,
+            3157.0616
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "opportunities for creation arise.\"",
+          "x": 1007.7007,
+          "yTop": 469.5354000000002,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7007,
+            3132.0546
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Perhaps the sequencing of time is meaningless. Is there truly a clear boundary between",
+          "x": 1007.7007,
+          "yTop": 519.5324,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7007,
+            3082.0576
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "retro and futuristic? As Wisława Szymborska once wrote in her poetry: \"When I pronounce",
+          "x": 1007.7007,
+          "yTop": 544.5394000000001,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7007,
+            3057.0506
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "the word Future, the first syllable already belongs to the past.\"",
+          "x": 1007.7007,
+          "yTop": 569.5464000000002,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7007,
+            3032.0436
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "This season, Marrow fuse classical and futuristic elements, shattering rigid boundaries. It is",
+          "x": 1007.7007,
+          "yTop": 619.5434,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7007,
+            2982.0466
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "a blend—imbued with the spirit of romanticism, yet revealing new strength through this very",
+          "x": 1007.7007,
+          "yTop": 644.5504000000001,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7007,
+            2957.0396
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "loosening.",
+          "x": 1007.7007,
+          "yTop": 669.5574000000001,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7007,
+            2932.0326
+          ],
+          "fontSize": 17.0
+        }
+      ],
+      "ornaments": [
+        {
+          "asset": "/design/2026/daisy.png",
+          "x": 871.6320433,
+          "y": 203.7884351,
+          "width": 63.5023987,
+          "height": 56.3458549,
+          "flipX": true
+        },
+        {
+          "asset": "/design/2026/daisy.png",
+          "x": 570.551909,
+          "y": 788.020102,
+          "width": 62.2046716,
+          "height": 55.194378
+        }
+      ]
+    },
+    {
+      "page": 2,
+      "width": 1920,
+      "height": 5581.64,
+      "cards": [
+        {
+          "label": "Twinkle",
+          "asset": "/design/2026/dress-01.jpg",
+          "crop": [
+            93,
+            975,
+            466,
+            1513
+          ],
+          "x": 93.0,
+          "y": 975.0,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 1551.8295,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Twiggy",
+          "asset": "/design/2026/dress-02.jpg",
+          "crop": [
+            546,
+            975,
+            919,
+            1513
+          ],
+          "x": 546.3942870000001,
+          "y": 975.0,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 1551.8295,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Starry River",
+          "asset": "/design/2026/dress-03.jpg",
+          "crop": [
+            1000,
+            975,
+            1373,
+            1513
+          ],
+          "x": 999.788574,
+          "y": 975.0,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 1551.8295,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Silver Brigitte",
+          "asset": "/design/2026/dress-04.jpg",
+          "crop": [
+            1453,
+            975,
+            1826,
+            1513
+          ],
+          "x": 1453.182861,
+          "y": 975.0,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 1551.8295,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Rosycheek",
+          "asset": "/design/2026/dress-05.jpg",
+          "crop": [
+            93,
+            1634,
+            466,
+            2172
+          ],
+          "x": 93.0,
+          "y": 1634.0957039999998,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 2211.5995,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Rosy Whisper",
+          "asset": "/design/2026/dress-06.jpg",
+          "crop": [
+            546,
+            1634,
+            919,
+            2172
+          ],
+          "x": 546.3942870000001,
+          "y": 1634.0957039999998,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 2211.5995,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Rosette Nebula",
+          "asset": "/design/2026/dress-07.jpg",
+          "crop": [
+            1000,
+            1634,
+            1373,
+            2172
+          ],
+          "x": 999.788574,
+          "y": 1634.0957039999998,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 2211.5995,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Red Daisy",
+          "asset": "/design/2026/dress-08.jpg",
+          "crop": [
+            1453,
+            1634,
+            1826,
+            2172
+          ],
+          "x": 1453.182861,
+          "y": 1634.0957039999998,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 2211.5995,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Polka",
+          "asset": "/design/2026/dress-09.jpg",
+          "crop": [
+            93,
+            2293,
+            466,
+            2831
+          ],
+          "x": 93.0,
+          "y": 2293.1914079999997,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 2870.2645,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Perry",
+          "asset": "/design/2026/dress-10.jpg",
+          "crop": [
+            546,
+            2293,
+            919,
+            2831
+          ],
+          "x": 546.3942870000001,
+          "y": 2293.1914079999997,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 2870.2645,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Nini",
+          "asset": "/design/2026/dress-11.jpg",
+          "crop": [
+            1000,
+            2293,
+            1373,
+            2831
+          ],
+          "x": 999.788574,
+          "y": 2293.1914079999997,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 2870.2645,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Neural",
+          "asset": "/design/2026/dress-12.jpg",
+          "crop": [
+            1453,
+            2293,
+            1826,
+            2831
+          ],
+          "x": 1453.182861,
+          "y": 2293.1914079999997,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 2870.2645,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Nana",
+          "asset": "/design/2026/dress-13.jpg",
+          "crop": [
+            93,
+            2952,
+            466,
+            3490
+          ],
+          "x": 93.0,
+          "y": 2952.287112,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 3529.1335,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Mousse",
+          "asset": "/design/2026/dress-14.jpg",
+          "crop": [
+            546,
+            2952,
+            919,
+            3490
+          ],
+          "x": 546.3942870000001,
+          "y": 2952.287112,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 3529.1335,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Moon",
+          "asset": "/design/2026/dress-15.jpg",
+          "crop": [
+            1000,
+            2952,
+            1373,
+            3490
+          ],
+          "x": 999.788574,
+          "y": 2952.287112,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 3529.1335,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Lumina",
+          "asset": "/design/2026/dress-16.jpg",
+          "crop": [
+            1453,
+            2952,
+            1826,
+            3490
+          ],
+          "x": 1453.182861,
+          "y": 2952.287112,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 3529.1335,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Lumina",
+          "asset": "/design/2026/dress-17.jpg",
+          "crop": [
+            93,
+            3611,
+            466,
+            4149
+          ],
+          "x": 93.0,
+          "y": 3611.382816,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 4188.7675,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Fleur Step",
+          "asset": "/design/2026/dress-18.jpg",
+          "crop": [
+            546,
+            3611,
+            919,
+            4149
+          ],
+          "x": 546.3942870000001,
+          "y": 3611.382816,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 4188.7675,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Dreamy Daisy",
+          "asset": "/design/2026/dress-19.jpg",
+          "crop": [
+            1000,
+            3611,
+            1373,
+            4149
+          ],
+          "x": 999.788574,
+          "y": 3611.382816,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 4188.7675,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Cyra",
+          "asset": "/design/2026/dress-20.jpg",
+          "crop": [
+            1453,
+            3611,
+            1826,
+            4149
+          ],
+          "x": 1453.182861,
+          "y": 3611.382816,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 4188.7675,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Cranberry",
+          "asset": "/design/2026/dress-21.jpg",
+          "crop": [
+            93,
+            4270,
+            466,
+            4808
+          ],
+          "x": 93.0,
+          "y": 4270.47852,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 4848.0955,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Bubble",
+          "asset": "/design/2026/dress-22.jpg",
+          "crop": [
+            546,
+            4270,
+            919,
+            4808
+          ],
+          "x": 546.3942870000001,
+          "y": 4270.47852,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 4848.0955,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Brigitte",
+          "asset": "/design/2026/dress-23.jpg",
+          "crop": [
+            1000,
+            4270,
+            1373,
+            4808
+          ],
+          "x": 999.788574,
+          "y": 4270.47852,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 4848.0955,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        },
+        {
+          "label": "Avaia",
+          "asset": "/design/2026/dress-24.jpg",
+          "crop": [
+            1453,
+            4270,
+            1826,
+            4808
+          ],
+          "x": 1453.182861,
+          "y": 4270.47852,
+          "width": 373,
+          "height": 538,
+          "captionBaseline": 4848.0955,
+          "pixelWidth": 746,
+          "pixelHeight": 1076
+        }
+      ],
+      "text": [
+        {
+          "text": "Marrow 2026 Collection draws its inspiration from encounters during travels. Standing",
+          "x": 1007.7002,
+          "yTop": 244.4945000000007,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7002,
+            5337.1455
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "within Kyoto's ICC—a 1960s futuristic structure designed by Yukio Ohtani—I suddenly lost",
+          "x": 1007.7002,
+          "yTop": 269.5015000000003,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7002,
+            5312.1385
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "all sense of time.",
+          "x": 1007.7002,
+          "yTop": 294.5084999999999,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7002,
+            5287.1315
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "From that moment, I began contemplating what Marrow's futurism truly means. \"At the",
+          "x": 1007.7002,
+          "yTop": 344.5055000000002,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7002,
+            5237.1345
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Chengdu Art Museum, viewing artist Xu Bing's exhibition, I was profoundly moved by his",
+          "x": 1007.7002,
+          "yTop": 369.5124999999998,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7002,
+            5212.1275000000005
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "words in <Xu Bing Tianshu Rocket>: Human civilization's progress relies on two kinds of",
+          "x": 1007.7002,
+          "yTop": 394.5194999999994,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7002,
+            5187.120500000001
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "people. Some, like scientists, organize and systematize, understanding the world through",
+          "x": 1007.7002,
+          "yTop": 419.52649999999903,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7002,
+            5162.113500000001
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "reason. Others, like artists, disrupt these systems. Only when order is loosened do",
+          "x": 1007.7002,
+          "yTop": 444.53349999999864,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7002,
+            5137.106500000002
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "opportunities for creation arise.\"",
+          "x": 1007.7002,
+          "yTop": 469.54049999999825,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7002,
+            5112.099500000002
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Perhaps the sequencing of time is meaningless. Is there truly a clear boundary between",
+          "x": 1007.7002,
+          "yTop": 519.5374999999985,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7002,
+            5062.102500000002
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "retro and futuristic? As Wisława Szymborska once wrote in her poetry: \"When I pronounce",
+          "x": 1007.7002,
+          "yTop": 544.5444999999982,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7002,
+            5037.095500000002
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "the word Future, the first syllable already belongs to the past.\"",
+          "x": 1007.7002,
+          "yTop": 569.5514999999978,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7002,
+            5012.088500000003
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "This season, Marrow fuse classical and futuristic elements, shattering rigid boundaries. It is",
+          "x": 1007.7002,
+          "yTop": 619.5484999999981,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7002,
+            4962.091500000002
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "a blend—imbued with the spirit of romanticism, yet revealing new strength through this very",
+          "x": 1007.7002,
+          "yTop": 644.5554999999977,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7002,
+            4937.084500000003
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "loosening.",
+          "x": 1007.7002,
+          "yTop": 669.5624999999973,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1007.7002,
+            4912.077500000003
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "© 2026 - Marrow",
+          "x": 100.002,
+          "yTop": 5537.9447,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            15.0,
+            0.0,
+            0.0,
+            15.0,
+            100.002,
+            43.6953
+          ],
+          "fontSize": 15.0
+        },
+        {
+          "text": "Puella Aeterna",
+          "x": 100.0017,
+          "yTop": 5233.9818000000005,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            100.0017,
+            347.6582
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Futur",
+          "x": 100.0017,
+          "yTop": 5267.2678000000005,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            100.0017,
+            314.3722
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Psyche and Eros Submit your email address so we can get in touch with you.",
+          "x": 100.0017,
+          "yTop": 5300.553800000001,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            100.0017,
+            281.0862
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "name@email.com",
+          "x": 1265.9727,
+          "yTop": 5248.1839,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            16.6667,
+            0.0,
+            0.0,
+            16.6667,
+            1265.9727,
+            333.4561
+          ],
+          "fontSize": 16.6667
+        },
+        {
+          "text": "About",
+          "x": 388.3772,
+          "yTop": 5233.9818000000005,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            388.3772,
+            347.6582
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Our Boutique",
+          "x": 388.3772,
+          "yTop": 5267.2678000000005,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            388.3772,
+            314.3722
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Stockists",
+          "x": 388.3772,
+          "yTop": 5300.553800000001,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            388.3772,
+            281.0862
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Twinkle Silver Brigitte",
+          "x": 245.7842,
+          "yTop": 1551.8295000000003,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            245.7842,
+            4029.8105
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Rosycheek Red Daisy",
+          "x": 231.47019999999998,
+          "yTop": 2211.5995000000003,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            231.47019999999998,
+            3370.0405
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Polka Neural",
+          "x": 255.1171999999999,
+          "yTop": 2870.2645,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            255.1171999999999,
+            2711.3755
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Nana Lumina",
+          "x": 256.47720000000027,
+          "yTop": 3529.1335,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            256.47720000000027,
+            2052.5065000000004
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Lumina Cyra",
+          "x": 247.3652000000002,
+          "yTop": 4188.7675,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            247.3652000000002,
+            1392.8725000000004
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Cranberry",
+          "x": 234.78520000000003,
+          "yTop": 4848.095499999999,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            234.78520000000003,
+            733.5445000000004
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Twiggy",
+          "x": 702.1533,
+          "yTop": 1551.8295000000003,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            702.1533,
+            4029.8105
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Rosy Whisper",
+          "x": 672.9472999999999,
+          "yTop": 2211.5995000000003,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            672.9472999999999,
+            3370.0405
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Perry",
+          "x": 709.8032999999999,
+          "yTop": 2870.2645,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            709.8032999999999,
+            2711.3755
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Mousse",
+          "x": 699.3652999999999,
+          "yTop": 3529.1335,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            699.3652999999999,
+            2052.5065000000004
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Fleur Step",
+          "x": 688.6212999999999,
+          "yTop": 4188.7675,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            688.6212999999999,
+            1392.8725000000004
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Bubble",
+          "x": 703.4282999999999,
+          "yTop": 4848.095499999999,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            703.4282999999999,
+            733.5445000000004
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Starry River",
+          "x": 1132.4707,
+          "yTop": 1551.8295000000003,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1132.4707,
+            4029.8105
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Rosette Nebula",
+          "x": 1117.4257,
+          "yTop": 2211.5995000000003,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1117.4257,
+            3370.0405
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Nini",
+          "x": 1167.6097,
+          "yTop": 2870.2645,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1167.6097,
+            2711.3755
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Moon",
+          "x": 1159.7217,
+          "yTop": 3529.1335,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1159.7217,
+            2052.5065000000004
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Dreamy Daisy",
+          "x": 1123.7497,
+          "yTop": 4188.7675,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1123.7497,
+            1392.8725000000004
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Brigitte Avaia",
+          "x": 1152.2417,
+          "yTop": 4848.095499999999,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            17.0,
+            0.0,
+            0.0,
+            17.0,
+            1152.2417,
+            733.5445000000004
+          ],
+          "fontSize": 17.0
+        },
+        {
+          "text": "Explore Accessories",
+          "x": 100.002,
+          "yTop": 4998.745000000001,
+          "size": 1.0,
+          "font": "/BDNMPQ+LuxuriousScript-Regular",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            25.0,
+            0.0,
+            0.0,
+            25.0,
+            100.002,
+            582.895
+          ],
+          "fontSize": 25.0
+        },
+        {
+          "text": "Home Wedding Dresses",
+          "x": 102.5933,
+          "yTop": 80.36610000000019,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            18.0,
+            0.0,
+            0.0,
+            18.0,
+            102.5933,
+            5501.2739
+          ],
+          "fontSize": 18.0
+        },
+        {
+          "text": "RetailersAbout Our Boutique",
+          "x": 0.0,
+          "yTop": 5581.64,
+          "size": 1.0,
+          "font": "/BDNMPQ+OPPOSans40",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "fontSize": 1.0
+        },
+        {
+          "text": "Wedding Dresses",
+          "x": 102.3228,
+          "yTop": 762.7469000000001,
+          "size": 1.0,
+          "font": "/BDNMPQ+LuxuriousScript-Regular",
+          "cm": [
+            1.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          "tm": [
+            40.0,
+            0.0,
+            0.0,
+            40.0,
+            102.3228,
+            4818.8931
+          ],
+          "fontSize": 40.0
+        }
+      ],
+      "ornaments": [
+        {
+          "asset": "/design/2026/daisy.png",
+          "x": 776.4486933,
+          "y": 230.0449751,
+          "width": 63.5023987,
+          "height": 56.3458549,
+          "flipX": true
+        },
+        {
+          "asset": "/design/2026/daisy.png",
+          "x": 1753.41884,
+          "y": 818.237102,
+          "width": 62.2046716,
+          "height": 55.194378
+        }
+      ]
+    }
+  ],
+  "runway": {
+    "width": 1920,
+    "height": 2440.36,
+    "background": "/design/2026/runway-background.jpg",
+    "assets": [
+      {
+        "asset": "/design/2026/runway-video-poster.jpg",
+        "x": 100,
+        "y": 720.075437,
+        "width": 566.700487,
+        "height": 841.808027,
+        "pixelWidth": 1133,
+        "pixelHeight": 1684
+      },
+      {
+        "asset": "/design/2026/runway-middle.jpg",
+        "x": 965,
+        "y": 465.03000000000026,
+        "width": 278.35,
+        "height": 417.316,
+        "pixelWidth": 557,
+        "pixelHeight": 835
+      },
+      {
+        "asset": "/design/2026/runway-detail.jpg",
+        "x": 1539.922,
+        "y": 1561.1530000000002,
+        "width": 278.35,
+        "height": 278.35,
+        "pixelWidth": 557,
+        "pixelHeight": 557
+      }
+    ],
+    "text": [
+      {
+        "text": "Home Wedding Dresses",
+        "x": 102.5933,
+        "yTop": 80.35850000000028,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          18.0,
+          0.0,
+          0.0,
+          18.0,
+          102.5933,
+          2360.0015
+        ],
+        "fontSize": 18.0
+      },
+      {
+        "text": "RetailersAbout Our Boutique",
+        "x": 0.0,
+        "yTop": 2440.36,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "fontSize": 1.0
+      },
+      {
+        "text": "IMarrow 2026 Collection draws",
+        "x": 1541.6753,
+        "yTop": 479.4801000000002,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          1541.6753,
+          1960.8799
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "its inspiration from encounters",
+        "x": 1541.6753,
+        "yTop": 504.4871000000003,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          1541.6753,
+          1935.8728999999998
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "during travels. Standing within",
+        "x": 1541.6753,
+        "yTop": 529.4941000000003,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          1541.6753,
+          1910.8658999999998
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "Kyoto's ICC—a 1960s futuristic",
+        "x": 1541.6753,
+        "yTop": 554.5011000000004,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          1541.6753,
+          1885.8588999999997
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "structure designed by Yukio",
+        "x": 1541.6753,
+        "yTop": 579.5081000000005,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          1541.6753,
+          1860.8518999999997
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "Ohtani—I suddenly lost all",
+        "x": 1541.6753,
+        "yTop": 604.5151000000005,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          1541.6753,
+          1835.8448999999996
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "sense of time.",
+        "x": 1541.6753,
+        "yTop": 629.5221000000006,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          1541.6753,
+          1810.8378999999995
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "From that moment, I began",
+        "x": 1541.6753,
+        "yTop": 679.5191000000007,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          1541.6753,
+          1760.8408999999995
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "contemplating what Marrow's",
+        "x": 1541.6753,
+        "yTop": 704.5261000000007,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          1541.6753,
+          1735.8338999999994
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "futurism truly means. \"At the",
+        "x": 1541.6753,
+        "yTop": 729.5331000000008,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          1541.6753,
+          1710.8268999999993
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "Chengdu Art Museum, viewing",
+        "x": 1541.6753,
+        "yTop": 754.5401000000008,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          1541.6753,
+          1685.8198999999993
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "artist Xu Bing's exhibition, I was",
+        "x": 1541.6753,
+        "yTop": 779.5471000000009,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          1541.6753,
+          1660.8128999999992
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "profoundly moved by his words",
+        "x": 1541.6753,
+        "yTop": 804.554100000001,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          1541.6753,
+          1635.8058999999992
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "in <Xu Bing Tianshu Rocket>:",
+        "x": 1541.6753,
+        "yTop": 829.561100000001,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          1541.6753,
+          1610.798899999999
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "Human civilization's progress",
+        "x": 1541.6753,
+        "yTop": 854.5681000000011,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          1541.6753,
+          1585.791899999999
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "relies on two kinds of people.",
+        "x": 1541.6753,
+        "yTop": 879.5751000000012,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          1541.6753,
+          1560.784899999999
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "Some, like scientists, organize",
+        "x": 1541.6753,
+        "yTop": 904.5821000000012,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          1541.6753,
+          1535.777899999999
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "and systematize, understanding",
+        "x": 1541.6753,
+        "yTop": 929.5891000000013,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          1541.6753,
+          1510.7708999999988
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "the world through reason.",
+        "x": 1541.6753,
+        "yTop": 954.5961000000013,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          1541.6753,
+          1485.7638999999988
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "Others, like artists, disrupt",
+        "x": 1541.6753,
+        "yTop": 979.6031000000014,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          1541.6753,
+          1460.7568999999987
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "these systems. Only when",
+        "x": 1541.6753,
+        "yTop": 1004.6101000000015,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          1541.6753,
+          1435.7498999999987
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "order is loosened do",
+        "x": 1541.6753,
+        "yTop": 1029.6171000000015,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          1541.6753,
+          1410.7428999999986
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "opportunities for creation",
+        "x": 1541.6753,
+        "yTop": 1054.6241000000016,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          1541.6753,
+          1385.7358999999985
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "arise.\"",
+        "x": 1541.6753,
+        "yTop": 1079.6311000000017,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          1541.6753,
+          1360.7288999999985
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "Perhaps the sequencing of time",
+        "x": 965.0183000000001,
+        "yTop": 989.7181000000016,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          965.0183000000001,
+          1450.6418999999985
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "is meaningless. Is there truly a",
+        "x": 965.0183000000001,
+        "yTop": 1014.7251000000017,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          965.0183000000001,
+          1425.6348999999984
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "clear boundary between retro",
+        "x": 965.0183000000001,
+        "yTop": 1039.7321000000018,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          965.0183000000001,
+          1400.6278999999984
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "and futuristic? As Wisława",
+        "x": 965.0183000000001,
+        "yTop": 1064.7391000000018,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          965.0183000000001,
+          1375.6208999999983
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "Szymborska once wrote in her",
+        "x": 965.0183000000001,
+        "yTop": 1089.746100000002,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          965.0183000000001,
+          1350.6138999999982
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "poetry: \"When I pronounce the",
+        "x": 965.0183000000001,
+        "yTop": 1114.753100000002,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          965.0183000000001,
+          1325.6068999999982
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "word Future, the first syllable",
+        "x": 965.0183000000001,
+        "yTop": 1139.760100000002,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          965.0183000000001,
+          1300.5998999999981
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "already belongs to the past.\"",
+        "x": 965.0183000000001,
+        "yTop": 1164.767100000002,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          965.0183000000001,
+          1275.592899999998
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "This season, Marrow fuse",
+        "x": 965.0183000000001,
+        "yTop": 1214.7641000000021,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          965.0183000000001,
+          1225.595899999998
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "classical and futuristic",
+        "x": 965.0183000000001,
+        "yTop": 1239.7711000000022,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          965.0183000000001,
+          1200.588899999998
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "elements, shattering rigid",
+        "x": 965.0183000000001,
+        "yTop": 1264.7781000000023,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          965.0183000000001,
+          1175.5818999999979
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "boundaries. It is a",
+        "x": 965.0183000000001,
+        "yTop": 1289.7851000000023,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          965.0183000000001,
+          1150.5748999999978
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "blend—imbued with the spirit",
+        "x": 965.0183000000001,
+        "yTop": 1314.7921000000024,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          965.0183000000001,
+          1125.5678999999977
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "of romanticism, yet revealing",
+        "x": 965.0183000000001,
+        "yTop": 1339.7991000000025,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          965.0183000000001,
+          1100.5608999999977
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "new strength through this very",
+        "x": 965.0183000000001,
+        "yTop": 1364.8061000000025,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          965.0183000000001,
+          1075.5538999999976
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "loosening.",
+        "x": 965.0183000000001,
+        "yTop": 1389.8131000000026,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          965.0183000000001,
+          1050.5468999999975
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "© 2026 - Marrow",
+        "x": 100.002,
+        "yTop": 2396.1989000000003,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          15.0,
+          0.0,
+          0.0,
+          15.0,
+          100.002,
+          44.1611
+        ],
+        "fontSize": 15.0
+      },
+      {
+        "text": "Puella Aeterna",
+        "x": 100.0007,
+        "yTop": 2092.235,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          100.0007,
+          348.125
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "Futur",
+        "x": 100.0007,
+        "yTop": 2125.521,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          100.0007,
+          314.839
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "Psyche and Eros Submit your email address so we can get in touch with you.",
+        "x": 100.0007,
+        "yTop": 2158.8070000000002,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          100.0007,
+          281.553
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "name@email.com",
+        "x": 1265.9717,
+        "yTop": 2106.4371,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          16.6667,
+          0.0,
+          0.0,
+          16.6667,
+          1265.9717,
+          333.9229
+        ],
+        "fontSize": 16.6667
+      },
+      {
+        "text": "About",
+        "x": 388.3762,
+        "yTop": 2092.235,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          388.3762,
+          348.125
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "Our Boutique",
+        "x": 388.3762,
+        "yTop": 2125.521,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          388.3762,
+          314.839
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "Stockists",
+        "x": 388.3762,
+        "yTop": 2158.8070000000002,
+        "size": 1.0,
+        "font": "/BDNMPQ+OPPOSans40",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          17.0,
+          0.0,
+          0.0,
+          17.0,
+          388.3762,
+          281.553
+        ],
+        "fontSize": 17.0
+      },
+      {
+        "text": "Explore Wedding Dresses",
+        "x": 99.999,
+        "yTop": 1859.0656000000001,
+        "size": 1.0,
+        "font": "/BDNMPQ+LuxuriousScript-Regular",
+        "cm": [
+          1.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        "tm": [
+          25.0,
+          0.0,
+          0.0,
+          25.0,
+          99.999,
+          581.2944
+        ],
+        "fontSize": 25.0
+      }
+    ],
+    "title": {
+      "asset": "/design/2026/futur-title.png",
+      "x": 80.7272034,
+      "y": 299.02895,
+      "width": 397.884788,
+      "height": 150.87391
+    },
+    "ornaments": [
+      {
+        "asset": "/design/2026/daisy.png",
+        "x": 638.7722658,
+        "y": 435.0814179,
+        "width": 55.8565162,
+        "height": 49.5616421,
+        "flipX": true
+      },
+      {
+        "asset": "/design/2026/daisy.png",
+        "x": 1764.1434238,
+        "y": 1422.0527279,
+        "width": 55.8565162,
+        "height": 49.5616421,
+        "flipX": true
+      },
+      {
+        "asset": "/design/2026/daisy.png",
+        "x": 955.0253738,
+        "y": 1621.4540949,
+        "width": 55.8565162,
+        "height": 49.5616421,
+        "flipX": true
+      }
+    ]
+  },
+  "title": {
+    "asset": "/design/2026/futur-title.png",
+    "x": 76.2034531,
+    "y": 230.03971,
+    "width": 397.884788,
+    "height": 150.87391
+  },
+  "daisy": "/design/2026/daisy.png"
+}

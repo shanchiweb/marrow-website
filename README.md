@@ -1,42 +1,35 @@
-# Marrow Bridal — 网站源码交接包
+# Marrow Bridal website
 
-请先阅读同目录的 `START-HERE.md`（中文启动与修改说明）。
+Vinext/React website based on the supplied `首页-门店-经销商.pdf`, `2025.pdf`, `2026.pdf` and `2027.pdf` designs. The desktop layouts preserve the artwork proportions and scale with viewport width; smaller screens use a stacked layout.
 
-本包于 2026-10-12 导出，对应当前线上第 8 版。
+## Pages
 
-- 线上地址：https://marrow-bridal.gonglie313863848.chatgpt.site/
-- 源码快照：`d4ed22d99608139dd2c42c4dd9f9d2f86b958f5f`
-- 技术结构：Vinext / React / TypeScript / Cloudflare Workers。
-- 包含页面与交互代码、全部本地图片和字体、后台代码、构建配置、依赖锁文件。
-- 不包含依赖安装目录、Git 历史、缓存、密钥，以及云端 R2 的后台上传素材。
+- `/` — original two carousel images, followed by the new third image and three editorial collections.
+- `/about`, `/boutique`, `/retailers` — pages based on the PDF.
+- `/collections/psyche-and-eros/accessories` — accessories page from page 1 of `2025.pdf`.
+- `/collections/psyche-and-eros/lookbook` — wedding dress showcase from page 2 of `2025.pdf`.
+- `/collections/psyche-and-eros/runway` — runway page from page 3 of `2025.pdf`, with a replaceable video in the left frame.
+- `/collections/futur/accessories` — 2026 Futur accessories page from page 1 of `2026.pdf`.
+- `/collections/futur/lookbook` — 2026 Futur wedding dress showcase from page 2 of `2026.pdf`.
+- `/collections/futur/runway` — 2026 Futur runway page from page 3 of `2026.pdf`, with a replaceable video in the left frame.
+- `/collections/puella-aeterna/runway` — 2027 Puella Aeterna runway page from `2027.pdf`, with a replaceable video in the left frame. Its accessories and wedding dress showcase pages await further supplied designs and are not present.
+- Wedding Dresses is a navigation hover menu; no `/wedding-dresses` page remains.
+- `/admin` — password-protected media manager.
 
-## 本地启动
+## Updating website media
 
-安装 Node.js（至少 22.13.0）和 pnpm 11.16.0，在解压后的本目录运行：
+Open `/admin` and enter the configured admin password. “首页素材” keeps the original seven slots: three carousel images and four looping videos (first group left, second group left and middle, third group left). “Psyche and Eros · 秀场视频” manages `video-psyche-runway-left`; “Futur · 秀场视频” manages `video-futur-runway-left`; “Puella Aeterna · 秀场视频” manages `video-puella-runway-left`. Each collection's slot replaces its own runway page's left frame independently. Upload an image/video or enter an HTTPS media URL, then press “保存替换”. “恢复默认” removes the override. Each saved slot links to its relevant public page for review.
 
-```sh
-pnpm install
-pnpm dev
-```
+Video slots show the PDF artwork until a video is supplied. Homepage videos remain muted and loop automatically. All collection runway players have native playback, volume and seeking controls, and start when the visitor presses play. MP4 and WebM are recommended; HTTPS URLs must point directly to a browser-playable media file rather than a video platform's watch page. Uploaded media responses support byte ranges so the runway players can seek without downloading the entire video first.
 
-默认首页：http://localhost:3000/ 。如端口调整，以终端显示的地址为准。
+Uploads are stored in the Site's R2 bucket, not the browser, and are available across devices. Individual uploads are limited to 90 MB. A local `/admin` upload updates only the local development bucket; deploy the updated source and replace media through the hosted site's `/admin` to update the public website.
 
-这是源码项目，不能双击 HTML 文件直接打开完整网页。
+The page and media API require a signed, HttpOnly session cookie with an eight-hour server-side expiry. The public website's audience is unchanged. Login, logout and media writes require a same-origin request; login is limited to five attempts per IP per ten minutes, with atomic counters in R2. Old account-ID and localhost authentication bypasses have been removed.
 
-## 当前页面
+Server-only secret bindings `ADMIN_PASSWORD_HASH` and `ADMIN_SESSION_SECRET` are required. The former stores a salted PBKDF2-SHA256 hash; the latter is an independently generated 32-byte secret encoded as 64 lowercase hexadecimal characters. Set them as Sites runtime secrets and redeploy to apply them. Never put a plaintext password or either secret in source, browser code or a handoff ZIP. Local development can provide test secrets through an ignored `.dev.vars` file. Rotating either value invalidates existing sessions. Signing out clears the current browser cookie.
 
-- `/`：首页，三张轮播图和三组系列展示。
-- `/about`、`/boutique`、`/retailers`：独立页面。
-- `/admin`：轮播图片和四个视频位置的替换后台。
+## Development
 
-Wedding Dresses 现在为导航悬停菜单，不再有 `/wedding-dresses` 页面，菜单内容暂不链接。
+Requires Node.js 22.13+ and pnpm. Run `pnpm install`, `pnpm dev`, and `pnpm build`. `.openai/hosting.json` enables the `BUCKET` R2 binding for local and hosted media storage.
 
-## 构建
-
-```sh
-pnpm build
-```
-
-构建产物生成在 `dist/`，需要支持 Cloudflare Worker 的运行环境。部署说明与后台素材说明见中文交接文档。
-
-本次仅导出源码，不修改线上网站。
+The first two carousel images and prior design assets are retained in `public/`. Earlier assets under `public/design/` were extracted from the supplied Illustrator PDF with `scripts/extract-design.py`; that script accepts the absolute PDF path as its argument. The `2025.pdf` artwork assets are stored under `public/design/2025/`; the `2026.pdf` artwork assets are stored under `public/design/2026/`; the `2027.pdf` runway artwork is stored under `public/design/2027/`. Each directory includes its runway video's default poster. The original PDFs are not bundled into the site. The added Futur pages and Puella Aeterna runway page are local source changes; publishing requires a separate authorized deployment.

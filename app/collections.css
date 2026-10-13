@@ -1,0 +1,226 @@
+/* Psyche and Eros collection pages, scaled from the 1920px reference layouts. */
+.collection-page {
+  width: 100%;
+  overflow: hidden;
+  background: var(--cream);
+}
+
+.collection-stage {
+  position: relative;
+  background: var(--cream);
+}
+
+.collection-stage--accessories {
+  height: calc(3079.8 * var(--unit));
+}
+
+.collection-stage--lookbook {
+  height: calc(4392.31 * var(--unit));
+}
+
+.collection-title,
+.collection-subtitle,
+.collection-explore {
+  position: absolute;
+  margin: 0;
+  font-family: "Luxurious Script", cursive;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.collection-title {
+  top: calc(227.16 * var(--unit));
+  left: calc(107.079 * var(--unit));
+  color: #960000;
+  font-size: calc(99.9186 * var(--unit));
+  white-space: nowrap;
+}
+
+.collection-subtitle {
+  top: calc(243.165 * var(--unit));
+  left: calc(1005.446 * var(--unit));
+  color: var(--ink);
+  font-size: calc(40 * var(--unit));
+}
+
+.collection-copy {
+  position: absolute;
+  top: calc(456.504 * var(--unit));
+  left: calc(1005.446 * var(--unit));
+  width: calc(814.5 * var(--unit));
+  font-size: calc(17 * var(--unit));
+  line-height: calc(25.007 * var(--unit));
+  letter-spacing: calc(1.36 * var(--unit));
+}
+
+.collection-copy p {
+  margin: 0 0 calc(25.007 * var(--unit));
+}
+
+.collection-copy p:last-child {
+  margin-bottom: 0;
+}
+
+.collection-copy a:hover,
+.collection-copy a:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: calc(4 * var(--unit));
+}
+
+.collection-rose {
+  position: absolute;
+  pointer-events: none;
+  object-fit: contain;
+}
+
+.collection-rose--left {
+  top: calc(599.882 * var(--unit));
+  left: calc(90.436 * var(--unit));
+  width: calc(224.355 * var(--unit));
+  height: calc(112.177 * var(--unit));
+}
+
+.collection-rose--right {
+  top: calc(302 * var(--unit));
+  left: calc(1713 * var(--unit));
+  width: calc(102 * var(--unit));
+  height: calc(97 * var(--unit));
+}
+
+.collection-gallery {
+  position: absolute;
+  top: calc(875 * var(--unit));
+  left: calc(93 * var(--unit));
+  display: grid;
+  grid-template-columns: repeat(4, calc(373 * var(--unit)));
+  column-gap: calc(80.394287 * var(--unit));
+  row-gap: calc(75.548704 * var(--unit));
+}
+
+.collection-card {
+  width: calc(373 * var(--unit));
+  margin: 0;
+}
+
+.collection-card img {
+  width: 100%;
+  height: calc(538 * var(--unit));
+  object-fit: contain;
+}
+
+.collection-card figcaption {
+  margin-top: calc(20.54 * var(--unit));
+  color: var(--ink);
+  font-size: calc(17 * var(--unit));
+  line-height: calc(25.007 * var(--unit));
+  letter-spacing: calc(1.36 * var(--unit));
+  text-align: center;
+}
+
+.collection-explore {
+  top: calc(2902.155 * var(--unit));
+  left: calc(100 * var(--unit));
+  color: #960000;
+  font-size: calc(25 * var(--unit));
+}
+
+.collection-stage--lookbook .collection-explore {
+  top: calc(4214.665 * var(--unit));
+}
+
+.collection-explore:hover,
+.collection-explore:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: calc(5 * var(--unit));
+}
+
+.collection-explore:focus-visible,
+.collection-copy a:focus-visible {
+  outline: 1px solid currentColor;
+  outline-offset: 5px;
+}
+
+@media (max-width: 700px) {
+  .collection-stage--accessories,
+  .collection-stage--lookbook {
+    height: auto;
+    padding: 155px 20px 80px;
+  }
+
+  .collection-introduction {
+    position: relative;
+    padding-bottom: 45px;
+  }
+
+  .collection-title,
+  .collection-subtitle,
+  .collection-copy,
+  .collection-gallery,
+  .collection-explore {
+    position: static;
+  }
+
+  .collection-title {
+    font-size: clamp(49px, 12.5vw, 78px);
+    line-height: 1.12;
+    white-space: normal;
+  }
+
+  .collection-subtitle {
+    margin: 16px 0 36px;
+    font-size: 32px;
+  }
+
+  .collection-copy {
+    width: auto;
+    font-size: 13px;
+    line-height: 1.75;
+    letter-spacing: .45px;
+  }
+
+  .collection-copy p {
+    margin-bottom: 20px;
+  }
+
+  .collection-rose--left {
+    display: none;
+  }
+
+  .collection-rose--right {
+    top: 48px;
+    right: 0;
+    left: auto;
+    width: 54px;
+    height: 52px;
+  }
+
+  .collection-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 16px;
+    row-gap: 30px;
+  }
+
+  .collection-card {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .collection-card img {
+    height: auto;
+    aspect-ratio: 373 / 538;
+  }
+
+  .collection-card figcaption {
+    margin-top: 12px;
+    font-size: 11px;
+    line-height: 1.4;
+    letter-spacing: .3px;
+  }
+
+  .collection-explore,
+  .collection-stage--lookbook .collection-explore {
+    display: inline-block;
+    margin-top: 56px;
+    font-size: 27px;
+  }
+}
