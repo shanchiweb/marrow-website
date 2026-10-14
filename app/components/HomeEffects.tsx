@@ -1,12 +1,11 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-
-const HEART_DEPTH_LAYERS = Array.from({ length: 11 }, (_, index) => index - 5);
+import { HeartModel, type HeartModelHandle } from "./HeartModel";
 
 export function HomeEffects() {
   const heart = useRef<HTMLButtonElement>(null);
-  const heartAngle = useRef(0);
+  const heartModel = useRef<HeartModelHandle>(null);
   const flower = useRef<HTMLButtonElement>(null);
   const bowArt = useRef<HTMLImageElement>(null);
   const [dragging, setDragging] = useState(false);
@@ -24,17 +23,7 @@ export function HomeEffects() {
   }
 
   function spinHeart() {
-    const element = heart.current;
-    if (!element) return;
-    const from = heartAngle.current;
-    const to = from + 180;
-    element.classList.remove("has-spun");
-    element.style.transform = `perspective(800px) rotateY(${from}deg)`;
-    element.style.setProperty("--heart-from", `${from}deg`);
-    element.style.setProperty("--heart-to", `${to}deg`);
-    heartAngle.current = to;
-    void element.offsetWidth;
-    element.classList.add("has-spun");
+    heartModel.current?.turnHalf();
   }
 
   useEffect(() => {
@@ -43,15 +32,14 @@ export function HomeEffects() {
       for (const entry of entries) {
         if (entry.intersectionRatio >= 0.3) {
           if (!visible.has(entry.target)) {
-            if (entry.target === heart.current) spinHeart();
+            if (entry.target === heart.current) {
+              if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) spinHeart();
+            }
             else spin(entry.target as HTMLElement);
           }
           visible.add(entry.target);
         } else if (!entry.isIntersecting) {
           visible.delete(entry.target);
-          if (entry.target === heart.current) {
-            (entry.target as HTMLElement).style.transform = `perspective(800px) rotateY(${heartAngle.current}deg)`;
-          }
           entry.target.classList.remove("has-spun");
         }
       }
@@ -94,14 +82,8 @@ export function HomeEffects() {
 
   return (
     <>
-      <button ref={heart} className="editorial-heart scroll-spin" type="button" aria-label="Rotate the pink heart" onClick={spinHeart} onAnimationEnd={(event) => {
-        if (event.animationName !== "heart-turn") return;
-        event.currentTarget.style.transform = `perspective(800px) rotateY(${heartAngle.current}deg)`;
-        event.currentTarget.classList.remove("has-spun");
-      }}>
-        {HEART_DEPTH_LAYERS.map((layer) => <span className="editorial-heart__depth" style={{ transform: `translateZ(${layer * 3}px)` }} key={layer} aria-hidden="true" />)}
-        <img className="editorial-heart__front" src="/design/heart.png" alt="" />
-        <img className="editorial-heart__back" src="/design/heart.png" alt="" />
+      <button ref={heart} className="editorial-heart" type="button" aria-label="Rotate the pink heart" onClick={spinHeart}>
+        <HeartModel ref={heartModel} />
       </button>
       <button ref={flower} className="editorial-flower scroll-spin" type="button" aria-label="Rotate the white flower" onClick={() => spin(flower.current)}>
         <img src="/design/flower.png" alt="" />
