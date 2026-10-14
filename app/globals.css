@@ -302,7 +302,45 @@ select {
   top: calc(948.21 * var(--unit));
   left: calc(107.24 * var(--unit));
   width: calc(677 * var(--unit));
+}
+
+.about-portrait__base {
+  display: block;
+  width: 100%;
   height: auto;
+}
+
+/* 签名图层：坐标来自原图（签名在 1354×973 里的位置 342,574，尺寸 1012×399）。
+   left / width 是「宽度的百分比」；top 是「高度的百分比」。 */
+.about-portrait__signature {
+  position: absolute;
+  left: 25.2585%;
+  top: 58.9928%;
+  width: 74.7415%;
+  height: auto;
+}
+
+.about-portrait.play .about-portrait__base {
+  animation: about-portrait-rise 900ms cubic-bezier(.22, 1, .36, 1) both;
+}
+@keyframes about-portrait-rise {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* 书写动画：遮罩只写在这里，绝不能放进 .about-portrait__signature 基础样式
+   （否则切换/中断时 mask-position 会回落到 100%，签名会被整块遮住） */
+.about-portrait.play .about-portrait__signature {
+  -webkit-mask-image: linear-gradient(90deg, #000 0 54%, transparent 60% 100%);
+          mask-image: linear-gradient(90deg, #000 0 54%, transparent 60% 100%);
+  -webkit-mask-size: 220% 100%;  mask-size: 220% 100%;
+  -webkit-mask-repeat: no-repeat; mask-repeat: no-repeat;
+  -webkit-mask-position: 100% 0;  mask-position: 100% 0;
+  animation: about-signature-write 3200ms cubic-bezier(.42, .02, .28, 1) 300ms both;
+}
+@keyframes about-signature-write {
+  from { -webkit-mask-position: 100% 0; mask-position: 100% 0; }
+  to   { -webkit-mask-position: 0% 0;   mask-position: 0% 0;   }
 }
 
 .press-introduction h2 {
@@ -516,6 +554,10 @@ select {
 
   .about-portrait {
     order: 3;
+    /* 必须保持定位上下文，否则里面的签名图层会跑到页面上别处 */
+    position: relative;
+    top: auto;
+    left: auto;
     width: min(100%, 560px);
     margin: 58px auto 70px;
   }
@@ -722,6 +764,13 @@ html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) {
   .editorial-flower.has-spun { animation: none; }
   .site-nav::after, .wedding-mega-menu, .wedding-mega-menu__name, .wedding-mega-menu__entry { transition: none; }
+  /* 肖像 + 签名：直接显示，不做浮现/书写动画 */
+  .about-portrait.play .about-portrait__base { animation: none; }
+  .about-portrait.play .about-portrait__signature {
+    animation: none;
+    -webkit-mask-image: none;
+            mask-image: none;
+  }
 }
 
 @media (max-width: 700px) {

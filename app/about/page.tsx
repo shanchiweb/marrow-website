@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { SignatureReveal } from "../components/SignatureReveal";
 import { SiteFooter } from "../components/SiteFooter";
 import { SiteHeader } from "../components/SiteHeader";
 
@@ -39,9 +40,9 @@ export default function About() {
           </div>
         </section>
 
-        <img
-          className="about-portrait"
-          src="/about-portrait.png"
+        <SignatureReveal
+          baseSrc="/about-portrait-base.png"
+          signatureSrc="/about-signature.png"
           alt="Portrait of Marrow designer Marrow Tang in an ornate oval frame"
         />
 
